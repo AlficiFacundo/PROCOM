@@ -1,0 +1,3 @@
+    generate_filter:0.5,10,10,t
+    generate_filter:0.5,10,10,f
+    plot_simult_all:c

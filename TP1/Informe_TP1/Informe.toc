@@ -1,0 +1,15 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Desarrollo}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Marco Teórico}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Filtros FIR}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Filtros RC y RRC}{4}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Comandos}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Flujo de programa}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Ejemplos de funcionamiento}{7}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Generación de filtros}{7}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Ploteo de Filtros en frecuencia}{7}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Ploteo de Filtros en tiempo}{10}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Ploteo Total}{13}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}RC vs. RRC}{14}{subsubsection.2.4.5}%
+\contentsline {section}{\numberline {3}Conclusión}{16}{section.3}%
