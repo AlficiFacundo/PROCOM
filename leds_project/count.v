@@ -1,4 +1,4 @@
-// Aquí va la lógica del módulo Count.
+// Aqui va la logica del modulo Count.
 /* El nombre de cada módulo conviene que sea el mismo que el nombre de la entrada del mismo,
 Para en casos donde se tienen varias capas, saber de que parte del código viene cada cosa.
 Tenemos una frecuencia de referencia de 100MHz como referencia para las entradas del multiplexador*/
@@ -14,7 +14,7 @@ module count(
     input i_reset,
     input clock
 );
-//Local parameters (Solo para este módulo, con el fin de no hacer lineas innecesarias en la jerarquía del topModule)
+//Local parameters (Solo para este modulo, con el fin de no hacer lineas innecesarias en la jerarqua del topModule)
 // Definición de bits para el contador.
     localparam R0 =(2**(NB_COUNTER-10))-1;  //(2^22)-1
     localparam R1 =(2**(NB_COUNTER-8))-1;   //(2^24)-1
@@ -37,10 +37,10 @@ module count(
             end
         else if(i_sw[0]) 
             begin
-                if(counter>=limit) //Para evitar pasar el límite en casos específicos (dado la diferencia de tamaño del contador y el límite)
+                if(counter>=limit) //Para evitar pasar el limite en casos especificos (dado la diferencia de tamano del contador y el límite)
                     begin
                         counter <= {NB_COUNTER{1'b0}};
-                        valid <= 1'b1; //Cuando el contador llega al límite, valid se pone a 1
+                        valid <= 1'b1; //Cuando el contador llega al limite, valid se pone a 1
                     end
                 else 
                     begin
@@ -49,15 +49,15 @@ module count(
                     -para que el tamaño del 1 sea igual al del contador, teniendo asi en cuenta los otros MSB
                     -También se puede hacer con un 'h1. Esta forma completa todos los bits con 0s a la izquierda
                     -sin importar el tamaño del contador.*/
-                    valid <= 1'b0; //Mientras el contador no llega al límite, valid se mantiene en 0
+                    valid <= 1'b0; //Mientras el contador no llega al limite, valid se mantiene en 0
                     end
             end
-        else //Este else se usa debido a que usamos lógica no bloqueante, en caso contrario, las variables guardan el valor anterior.
+        else //Este else se usa debido a que usamos logica no bloqueante, en caso contrario, las variables guardan el valor anterior.
             begin
-                counter <= counter; //Si no se cumple ninguna condición, el contador se mantiene.
-                valid <= valid; //Si no se cumple ninguna condición, valid se mantiene.
+                counter <= counter; //Si no se cumple ninguna condicion, el contador se mantiene.
+                valid <= valid; //Si no se cumple ninguna condicion, valid se mantiene.
             end
     end
-    assign o_valid = valid; //Asignación de la salida
+    assign o_valid = valid; //Asignacion de la salida
 
 endmodule
