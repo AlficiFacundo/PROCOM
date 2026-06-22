@@ -54,7 +54,7 @@ module tb_topModule;
         i_sw = 4'b1011;
         #100;
         @(posedge clock);
-        i_sw = 4'b1001;
+        i_sw = 4'b1000;
         #100;
         $finish;
     end

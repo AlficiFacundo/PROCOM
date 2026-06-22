@@ -14,7 +14,7 @@
 // Definitions
 `define N_LEDS 4
 `define NB_SEL 2
-`define NB_COUNT 32
+`define NB_COUNT 16
 `define NB_SW 4
 
 module shiftleds_muxVioIla
