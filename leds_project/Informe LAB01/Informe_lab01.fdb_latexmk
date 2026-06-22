@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1782130351.84226 "c:/Users/facun/VSCodeProjects/PROCOM/leds_project/Informe LAB01/Informe_lab01.tex" "Informe_lab01.pdf" "Informe_lab01" 1782130355.16294 0
+["pdflatex"] 1782130723.89382 "c:/Users/facun/VSCodeProjects/PROCOM/leds_project/Informe LAB01/Informe_lab01.tex" "Informe_lab01.pdf" "Informe_lab01" 1782130727.06029 0
   "C:/Users/facun/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779334415 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/facun/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1440.pk" 1779284450 16968 123c12e1aa92bd65611f9d00a329a715 ""
   "C:/Users/facun/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779279348 13350272 2e586ffb1a323122c445d3f8c3632b4b ""
@@ -163,12 +163,12 @@
   "C:/Users/facun/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/facun/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/facun/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Informe_lab01.aux" 1782130354 2552 067f27d3aa2d6673af0836e58d30ff15 "pdflatex"
-  "Informe_lab01.listing" 1782130354 61 c999f232ad1dda9df5e4b49c23704d36 "pdflatex"
-  "Informe_lab01.out" 1782130354 1316 26bf025fc9d0ab9672eac6d29dac54d0 "pdflatex"
-  "Informe_lab01.tex" 1782130350 12423 00e09b569ca14f8d8982fddf709a70bb ""
-  "Informe_lab01.toc" 1782130354 662 a35c12ea25b858e2717cf463161fc6b8 "pdflatex"
-  "c:/Users/facun/VSCodeProjects/PROCOM/leds_project/Informe LAB01/Informe_lab01.tex" 1782130350 12423 00e09b569ca14f8d8982fddf709a70bb ""
+  "Informe_lab01.aux" 1782130726 2552 067f27d3aa2d6673af0836e58d30ff15 "pdflatex"
+  "Informe_lab01.listing" 1782130726 61 c999f232ad1dda9df5e4b49c23704d36 "pdflatex"
+  "Informe_lab01.out" 1782130726 1316 26bf025fc9d0ab9672eac6d29dac54d0 "pdflatex"
+  "Informe_lab01.tex" 1782130722 12425 ffef300b0c679af65cdeaf4a5d4f04cb ""
+  "Informe_lab01.toc" 1782130726 662 a35c12ea25b858e2717cf463161fc6b8 "pdflatex"
+  "c:/Users/facun/VSCodeProjects/PROCOM/leds_project/Informe LAB01/Informe_lab01.tex" 1782130722 12425 ffef300b0c679af65cdeaf4a5d4f04cb ""
   "imagenes_lab01/diagrama_jerarquia.png" 1781904214 63047 3fdb44dfb9364ec461e3ab3b3d9ce28c ""
   "imagenes_lab01/diagrama_vio_ila.png" 1782063566 37219 c9eabce6285148571a00ff91ee64cfb2 ""
   "imagenes_lab01/ila16_r0.png" 1782129104 19065 8c0edd79fd37e4a560a1935ed25ce840 ""
