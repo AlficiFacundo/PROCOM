@@ -1,0 +1,162 @@
+\documentclass[12pt, a4paper]{article}
+
+% ── PAQUETES ─────────────────────────────────────────────────
+% Los paquetes amplían las capacidades de LaTeX.
+% Se cargan en el "preámbulo" (antes de \begin{document}).
+
+\usepackage[utf8]{inputenc}       % Permite tildes y ñ
+\usepackage[spanish]{babel}       % Idioma español (guiones, fechas, etc.)
+\usepackage{geometry}             % Control de márgenes
+\usepackage{graphicx}             % Para insertar imágenes
+\usepackage{setspace}             % Control de interlineado
+\usepackage{hyperref}             % Links clicables (índice, URLs)
+\usepackage{xcolor}               % Colores personalizados
+\usepackage{listings}
+\usepackage{tcolorbox}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{booktabs}
+\tcbuselibrary{listings, skins}
+
+\newtcblisting{terminal}{
+    colback   = black,           % fondo negro
+    colframe  = gray!50,         % borde gris
+    coltitle  = black,           % título en blanco
+    coltext   = green!70!white,  % texto verde (estilo terminal clásica)
+    title     = Terminal,
+    fonttitle = \bfseries\small,
+    listing only,
+    listing options = {
+        basicstyle = \ttfamily\small\color{green!70!white},
+        breaklines = true,
+    }
+}
+
+\lstset{
+    basicstyle    = \ttfamily\small,   % fuente monoespaciada
+    keywordstyle  = \color{blue},      % palabras clave en azul
+    commentstyle  = \color{gray},      % comentarios en gris
+    stringstyle   = \color{orange},    % strings en naranja
+    numbers       = left,              % números de línea a la izquierda
+    frame         = single,            % recuadro alrededor del bloque
+    breaklines    = true,              % corta líneas largas automáticamente
+}
+
+\newcommand{\tema}{Python Fixed Point}
+\newcommand{\titulotrabajo}{Informe}
+\newcommand{\autor}{Alfici, Facundo Ezequiel}
+\newcommand{\documento}{44012327}
+\newcommand{\curso}{PROCOM}
+\newcommand{\fundacion}{Fundación Fulgor}
+\newcommand{\fecha}{\today}
+
+% ── INICIO DEL DOCUMENTO ─────────────────────────────────────
+% Todo lo visible va DENTRO de este entorno
+\begin{document}
+
+% Quitamos la numeración en la carátula
+\thispagestyle{empty}
+
+% ── CARÁTULA ─────────────────────────────────────────────────
+\begin{center}   % Entorno para centrar contenido
+
+    % --- Encabezado institucional ---
+    {\Large \textbf{\fundacion}}\\[0.3cm]      % \\ fuerza un salto de línea                 % [0.2cm] = espacio extra después
+    {\large \curso}
+
+    \vspace{1.5cm}   % Espacio vertical de 1.5 cm
+
+    % --- Logo (opcional) ---
+    % Descomenta las 2 líneas siguientes si tenés un logo guardado
+    % \includegraphics[width=0.25\textwidth]{logo.png}
+    % \vspace{1cm}
+
+    \hrule height 1pt   % Línea horizontal
+    \vspace{0.4cm}
+
+    % --- Título del trabajo ---
+    {\LARGE \textbf{\titulotrabajo}}\\[0.3cm]
+    {\large \tema}
+
+    \vspace{0.4cm}
+    \hrule height 1pt
+
+    \vspace{2.5cm}
+
+    % --- Datos del alumno ---
+    % Tabla simple de 2 columnas: etiqueta y valor
+    \begin{tabular}{r l}   % r = columna alineada a la derecha, l = izquierda
+        \textbf{Autor:}   & \autor\\[0.2cm]
+        \textbf{Documento:}  & \documento\\[0.2cm]
+        \textbf{Docentes:} &  Ariel Pola, Santiago Garaventta Pascual y Agustín Pesce\\
+    \end{tabular}
+
+    \vspace{3cm}
+
+    % --- Fecha ---
+    {\large \fecha}
+
+\end{center}
+
+% Salto de página → el informe real comienza en la siguiente hoja
+\newpage
+
+% ── EJEMPLO DE PRIMERA SECCIÓN (para no dejar el doc vacío) ──
+\tableofcontents   % Genera el índice automáticamente
+\newpage
+
+
+%Cuerpo del informe
+
+\section{Introducción}
+En este informe se aplicarán los conceptos de Aritmética de punto fijo utilizando la clase \textbf{fixedInt.py} con el fin de
+familiarizarse con el uso de python para el cálculo y representación de las respuestas de filtros propuestos.
+El ejercicio consta de 5 consignas, donde se pide aplicar los conceptos mencionados anteriormente sobre el filtro \textit{Raised Cosine}
+del código en python proveniente del archivo \textbf{tx\_rcosine\_procom.py}. Los puntos a desarrollar se listan a continuación.
+\begin{enumerate}
+    \item Generar tres filtros con rolloff [0.0,0.5,1.0] en punto flotante con NBaud = 16,
+    FBaud =1G y OS = 8.
+    \item Graficar la respuesta al impulso y frecuencia.
+    \item Graficar la convolusión de los tres filtros con los símbolos a transmitir y la constelación buscando la fase óptima.
+    \item Sobre cada filtro aplicar las siguiente cuantizaciones: S(8,7) truncado, S(8,7) redondeo,
+    S(3,2) truncado, S(3,2) redondeo, S(6,4) truncado y S(6,4) redondeo. En todos los
+    casos considerar saturación.
+    \item Realizar con los nuevos filtros las gráficas anteriores y comparar resultados.
+\end{enumerate}
+
+\newpage
+
+\section{Desarrollo}
+
+\subsection{Generación de filtros Raised Cosine}
+Comenzando con el desarollo, se pide generar tres filtros con diferentes valores de rolloff (exceso de ancho de banda) para punto flotante.
+La respuesta al impulso se puede ver en la siguiente figura.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_FP/rta_imp_1.png}
+    \caption{Respuesta al Impulso de los filtros combinados}
+    \label{fig:rta_imp_1}
+\end{figure}
+en la figura \ref{fig:rta_imp_1} se puede observar la clara diferencia en la respuesta al impulso de los filtros, donde según el valor de rolloff, el filtro
+responderá de manera más o menos ondulatoria, siendo el filtro con el rolloff de 1 la respuesta con menor sobreoscilación.
+
+De igual manera, se graficó la respuesta en frecuencia de los filtros, lo que se muestra en la siguiente figura.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imagenes_FP/rta_freq_1.png}
+    \caption{Respuesta en Frecuencia de los filtros combinados}
+    \label{fig:rta_freq_1}
+\end{figure}
+Donde se puede ver representada la clara diferencia entre las respuestas en frecuencia según el coeficiente de rolloff.
+
+Algunas cosas importantes a analizar con el fin de entender lo que se ve en la figura \ref{fig:rta_freq_1} vienen dadas por el \textbf{eje} dibujado
+por las lineas negras. Este eje nos muestra el punto donde cada filtro presenta su punto de \textbf{amplitud media} para el eje horizontal y la \textbf{frecuencia
+de corte} para el eje vertical. Se llegó a esta conclusión analizando el código provisto.
+
+La figura \ref{fig:rta_freq_1} muestra que la frecuencia de corte del filtro es \textit{independiente del factor de rolloff}, dado que los tres filtros
+se intersectan con el eje vertical en el mismo punto. Por otra parte, \textit{el punto de amplitud media de cada uno varía significativamente}, de tal manera que
+para un rolloff más cercano a 0, el punto de amplitud media se encontrará en una frecuencia menor.
+
+
+
+\end{document}

@@ -13,15 +13,15 @@ from tool._fixedInt import *
 ##  ipython nbconvert --to latex --post PDF <Name.ipynb>
 
 ## Parametros generales
-T     = 1.0/21.0e9 # Periodo de baudio
+T     = 1.0/1.0e9 # Periodo de baudio
 Nsymb = 1000          # Numero de simbolos
-os    = 4
+os    = 8
 ## Parametros de la respuesta en frecuencia
 Nfreqs = 256          # Cantidad de frecuencias
 
 ## Parametros del filtro de caida cosenoidal
 beta   = [0.0,0.5,0.99] # Roll-Off
-Nbauds = 8     # Cantidad de baudios del filtro
+Nbauds = 16     # Cantidad de baudios del filtro
 ## Parametros funcionales
 Ts = T/os              # Frecuencia de muestreo
 
@@ -81,7 +81,7 @@ plt.figure(figsize=[14,7])
 plt.subplot(3,1,1)
 plt.plot(np.arange(0,len(rc0)),rc0,'r.-',linewidth=2.0,label=r'$\beta=0.0$')
 plt.plot(np.arange(os,len(rc0)+os),rc0,'k.-',linewidth=2.0,label=r'$\beta=0.0$')
-plt.stem(np.arange(offsetPot,len(symb00)+offsetPot),symb00,label='Bits',use_line_collection=True)
+plt.stem(np.arange(offsetPot,len(symb00)+offsetPot),symb00,label='Bits')
 plt.plot(rc0Symb00[os::],'--',linewidth=3.0,label='Convolution')
 plt.legend()
 plt.grid(True)
@@ -95,7 +95,7 @@ plt.title('Rcosine - OS: %d'%int(os))
 plt.subplot(3,1,2)
 plt.plot(np.arange(0,len(rc1)),rc1,'r.-',linewidth=2.0,label=r'$\beta=0.5$')
 plt.plot(np.arange(os,len(rc1)+os),rc1,'k.-',linewidth=2.0,label=r'$\beta=0.5$')
-plt.stem(np.arange(offsetPot,len(symb00)+offsetPot),symb00,label='Bits',use_line_collection=True)
+plt.stem(np.arange(offsetPot,len(symb00)+offsetPot),symb00,label='Bits')
 plt.plot(rc1Symb00[os::],'--',linewidth=3.0,label='Convolution')
 plt.legend()
 plt.grid(True)
@@ -109,7 +109,7 @@ plt.ylabel('Magnitud')
 plt.subplot(3,1,3)
 plt.plot(np.arange(0,len(rc2)),rc2,'r.-',linewidth=2.0,label=r'$\beta=1.0$')
 plt.plot(np.arange(os,len(rc2)+os),rc2,'k.-',linewidth=2.0,label=r'$\beta=1.0$')
-plt.stem(np.arange(offsetPot,len(symb00)+offsetPot),symb00,label='Bits',use_line_collection=True)
+plt.stem(np.arange(offsetPot,len(symb00)+offsetPot),symb00,label='Bits')
 plt.plot(rc2Symb00[os::],'--',linewidth=3.0,label='Convolution')
 plt.legend()
 plt.grid(True)
@@ -180,6 +180,7 @@ plt.grid(True)
 plt.xlim(F2[1],F2[len(F2)-1])
 plt.xlabel('Frequencia [Hz]')
 plt.ylabel('Magnitud [dB]')
+plt.title('Respuesta en Frecuencia')
 plt.show()
 
 
