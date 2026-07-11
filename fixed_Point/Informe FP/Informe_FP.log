@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.20)  11 JUL 2026 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.20)  11 JUL 2026 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,6 +573,40 @@ Package caption Info: New subtype `subtable' on input line 238.
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
+) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen307
+\ar@mcellbox=\box79
+\extrarowheight=\dimen308
+\NC@list=\toks45
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box80
+) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen309
+\TX@old@table=\dimen310
+\TX@old@col=\dimen311
+\TX@target=\dimen312
+\TX@delta=\dimen313
+\TX@cols=\count354
+\TX@ftn=\toks46
+) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip57
+\RaggedLeftLeftskip=\skip58
+\RaggedRightLeftskip=\skip59
+\CenteringRightskip=\skip60
+\RaggedLeftRightskip=\skip61
+\RaggedRightRightskip=\skip62
+\CenteringParfillskip=\skip63
+\RaggedLeftParfillskip=\skip64
+\RaggedRightParfillskip=\skip65
+\JustifyingParfillskip=\skip66
+\CenteringParindent=\skip67
+\RaggedLeftParindent=\skip68
+\RaggedRightParindent=\skip69
+\JustifyingParindent=\skip70
 ) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore.code.tex
@@ -580,53 +614,49 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
 (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
 )
-\c@tcblisting=\count354
+\c@tcblisting=\count355
 )) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
 (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
 Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
  (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
-\l__tikzfill_tmpa_dim=\dimen307
-\l__tikzfill_tmpb_dim=\dimen308
-\l__tikzfill_img_box=\box79
+\l__tikzfill_tmpa_dim=\dimen314
+\l__tikzfill_tmpb_dim=\dimen315
+\l__tikzfill_img_box=\box81
 )) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
 )) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count355
+\l__color_backend_stack_int=\count356
 ) (Informe_FP.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 11.
-
-
-LaTeX Warning: Label `fig:constelations_filters_opt8,7_trunc' multiply defined.
-
 )
 \openout1 = `Informe_FP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -664,29 +694,29 @@ LaTeX Info: Redefining \% on input line 59.
 
 (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count356
-\scratchdimen=\dimen309
-\scratchbox=\box80
-\nofMPsegments=\count357
-\nofMParguments=\count358
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count359
-\MPscratchDim=\dimen310
-\MPnumerator=\count360
-\makeMPintoPDFobject=\count361
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count357
+\scratchdimen=\dimen316
+\scratchbox=\box82
+\nofMPsegments=\count358
+\nofMParguments=\count359
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count360
+\MPscratchDim=\dimen317
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
+\everyMPtoPDFconversion=\toks48
 ) (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\facun\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 62.
  (Informe_FP.out) (Informe_FP.out)
 \@outlinefile=\write4
 \openout4 = `Informe_FP.out'.
 
-\c@lstlisting=\count362
+\c@lstlisting=\count363
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
@@ -699,341 +729,494 @@ LaTeX Info: Redefining \% on input line 1.
 \openout5 = `Informe_FP.toc'.
 
  [2] [3]
-<imagenes_FP/rta_imp_1.png, id=63, 1013.2254pt x 505.89pt>
+<imagenes_FP/rta_imp_1.png, id=73, 1013.2254pt x 505.89pt>
 File: imagenes_FP/rta_imp_1.png Graphic file (type png)
 <use imagenes_FP/rta_imp_1.png>
-Package pdftex.def Info: imagenes_FP/rta_imp_1.png  used on input line 140.
+Package pdftex.def Info: imagenes_FP/rta_imp_1.png  used on input line 143.
 (pdftex.def)             Requested size: 418.25368pt x 208.82886pt.
-<imagenes_FP/rta_freq_1.png, id=66, 1013.2254pt x 428.5611pt>
+<imagenes_FP/rta_freq_1.png, id=76, 1013.2254pt x 428.5611pt>
 File: imagenes_FP/rta_freq_1.png Graphic file (type png)
 <use imagenes_FP/rta_freq_1.png>
-Package pdftex.def Info: imagenes_FP/rta_freq_1.png  used on input line 150.
+Package pdftex.def Info: imagenes_FP/rta_freq_1.png  used on input line 153.
 (pdftex.def)             Requested size: 418.25368pt x 176.90787pt.
  [4 <./imagenes_FP/rta_imp_1.png>]
-<imagenes_FP/os_effect_1.png, id=75, 1013.2254pt x 505.89pt>
+<imagenes_FP/os_effect_1.png, id=85, 1013.2254pt x 505.89pt>
 File: imagenes_FP/os_effect_1.png Graphic file (type png)
 <use imagenes_FP/os_effect_1.png>
-Package pdftex.def Info: imagenes_FP/os_effect_1.png  used on input line 168.
+Package pdftex.def Info: imagenes_FP/os_effect_1.png  used on input line 171.
 (pdftex.def)             Requested size: 418.25368pt x 208.82886pt.
  [5 <./imagenes_FP/rta_freq_1.png>]
-<imagenes_FP/simbols1.png, id=82, 722.7pt x 433.62pt>
+<imagenes_FP/simbols1.png, id=92, 722.7pt x 433.62pt>
 File: imagenes_FP/simbols1.png Graphic file (type png)
 <use imagenes_FP/simbols1.png>
-Package pdftex.def Info: imagenes_FP/simbols1.png  used on input line 178.
+Package pdftex.def Info: imagenes_FP/simbols1.png  used on input line 181.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
-<imagenes_FP/simbols_in_out1.png, id=83, 722.7pt x 433.62pt>
+<imagenes_FP/simbols_in_out1.png, id=93, 722.7pt x 433.62pt>
 File: imagenes_FP/simbols_in_out1.png Graphic file (type png)
 <use imagenes_FP/simbols_in_out1.png>
-Package pdftex.def Info: imagenes_FP/simbols_in_out1.png  used on input line 185.
+Package pdftex.def Info: imagenes_FP/simbols_in_out1.png  used on input line 188.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
  [6 <./imagenes_FP/os_effect_1.png> <./imagenes_FP/simbols1.png>]
-<imagenes_FP/eye_d_filter0i.png, id=93, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0i.png, id=103, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0i.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0i.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0i.png  used on input line 199.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0i.png  used on input line 202.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter0q.png, id=94, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0q.png, id=104, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0q.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0q.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0q.png  used on input line 204.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0q.png  used on input line 207.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter1i.png, id=95, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1i.png, id=105, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1i.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1i.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1i.png  used on input line 216.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1i.png  used on input line 219.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter1q.png, id=96, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1q.png, id=106, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1q.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1q.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1q.png  used on input line 221.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1q.png  used on input line 224.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
  [7 <./imagenes_FP/simbols_in_out1.png> <./imagenes_FP/eye_d_filter0i.png> <./imagenes_FP/eye_d_filter0q.png>]
-<imagenes_FP/eye_d_filter2i.png, id=108, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2i.png, id=118, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2i.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2i.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2i.png  used on input line 233.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2i.png  used on input line 236.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter2q.png, id=109, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2q.png, id=119, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2q.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2q.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2q.png  used on input line 238.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2q.png  used on input line 241.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/constelation_filter0.png, id=110, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter0.png, id=120, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter0.png Graphic file (type png)
 <use imagenes_FP/constelation_filter0.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter0.png  used on input line 256.
+Package pdftex.def Info: imagenes_FP/constelation_filter0.png  used on input line 259.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter1.png, id=111, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter1.png, id=121, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter1.png Graphic file (type png)
 <use imagenes_FP/constelation_filter1.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter1.png  used on input line 263.
+Package pdftex.def Info: imagenes_FP/constelation_filter1.png  used on input line 266.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter2.png, id=112, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter2.png, id=122, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter2.png Graphic file (type png)
 <use imagenes_FP/constelation_filter2.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter2.png  used on input line 270.
+Package pdftex.def Info: imagenes_FP/constelation_filter2.png  used on input line 273.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
  [8 <./imagenes_FP/eye_d_filter1i.png> <./imagenes_FP/eye_d_filter1q.png> <./imagenes_FP/eye_d_filter2i.png> <./imagenes_FP/eye_d_filter2q.png>]
-<imagenes_FP/constelation_filter0_opt.png, id=123, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter0_opt.png, id=133, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter0_opt.png Graphic file (type png)
 <use imagenes_FP/constelation_filter0_opt.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter0_opt.png  used on input line 290.
+Package pdftex.def Info: imagenes_FP/constelation_filter0_opt.png  used on input line 293.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter1_opt.png, id=124, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter1_opt.png, id=134, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter1_opt.png Graphic file (type png)
 <use imagenes_FP/constelation_filter1_opt.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter1_opt.png  used on input line 297.
+Package pdftex.def Info: imagenes_FP/constelation_filter1_opt.png  used on input line 300.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter2_opt.png, id=125, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter2_opt.png, id=135, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter2_opt.png Graphic file (type png)
 <use imagenes_FP/constelation_filter2_opt.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter2_opt.png  used on input line 304.
+Package pdftex.def Info: imagenes_FP/constelation_filter2_opt.png  used on input line 307.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
  [9 <./imagenes_FP/constelation_filter0.png> <./imagenes_FP/constelation_filter1.png> <./imagenes_FP/constelation_filter2.png> <./imagenes_FP/constelation_filter0_opt.png> <./imagenes_FP/constelation_filter1_opt.png> <./imagenes_FP/constelation_filter2_opt.png>]
-<imagenes_FP/rta_imp_8,7_trunc.png, id=140, 1013.2254pt x 505.89pt>
+<imagenes_FP/rta_imp_8,7_trunc.png, id=150, 1013.2254pt x 505.89pt>
 File: imagenes_FP/rta_imp_8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/rta_imp_8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/rta_imp_8,7_trunc.png  used on input line 334.
+Package pdftex.def Info: imagenes_FP/rta_imp_8,7_trunc.png  used on input line 337.
 (pdftex.def)             Requested size: 204.9466pt x 102.32637pt.
-<imagenes_FP/rta_freq_8,7_trunc.png, id=141, 1013.2254pt x 433.62pt>
+<imagenes_FP/rta_freq_8,7_trunc.png, id=151, 1013.2254pt x 433.62pt>
 File: imagenes_FP/rta_freq_8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/rta_freq_8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/rta_freq_8,7_trunc.png  used on input line 341.
+Package pdftex.def Info: imagenes_FP/rta_freq_8,7_trunc.png  used on input line 344.
 (pdftex.def)             Requested size: 204.9466pt x 87.70831pt.
-<imagenes_FP/os_effect_8,7_trunc.png, id=142, 1013.2254pt x 505.89pt>
+<imagenes_FP/os_effect_8,7_trunc.png, id=152, 1013.2254pt x 505.89pt>
 File: imagenes_FP/os_effect_8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/os_effect_8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/os_effect_8,7_trunc.png  used on input line 353.
+Package pdftex.def Info: imagenes_FP/os_effect_8,7_trunc.png  used on input line 356.
 (pdftex.def)             Requested size: 204.9466pt x 102.32637pt.
-<imagenes_FP/simbols_in_out8,7_trunc.png, id=143, 724.1454pt x 433.62pt>
+<imagenes_FP/simbols_in_out8,7_trunc.png, id=153, 724.1454pt x 433.62pt>
 File: imagenes_FP/simbols_in_out8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/simbols_in_out8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/simbols_in_out8,7_trunc.png  used on input line 360.
+Package pdftex.def Info: imagenes_FP/simbols_in_out8,7_trunc.png  used on input line 363.
 (pdftex.def)             Requested size: 204.9466pt x 122.72284pt.
-<imagenes_FP/eye_d_filter0i8,7_trunc.png, id=144, 463.9734pt x 346.896pt>
+<imagenes_FP/eye_d_filter0i8,7_trunc.png, id=154, 463.9734pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0i8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0i8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0i8,7_trunc.png  used on input line 372.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0i8,7_trunc.png  used on input line 375.
 (pdftex.def)             Requested size: 204.9466pt x 153.22754pt.
-<imagenes_FP/eye_d_filter0q8,7_trunc.png, id=145, 463.9734pt x 346.896pt>
+<imagenes_FP/eye_d_filter0q8,7_trunc.png, id=155, 463.9734pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0q8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0q8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0q8,7_trunc.png  used on input line 377.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0q8,7_trunc.png  used on input line 380.
 (pdftex.def)             Requested size: 204.9466pt x 153.22754pt.
  [10 <./imagenes_FP/rta_imp_8,7_trunc.png> <./imagenes_FP/rta_freq_8,7_trunc.png> <./imagenes_FP/os_effect_8,7_trunc.png> <./imagenes_FP/simbols_in_out8,7_trunc.png>]
-<imagenes_FP/eye_d_filter1i8,7_trunc.png, id=156, 463.9734pt x 346.896pt>
+<imagenes_FP/eye_d_filter1i8,7_trunc.png, id=166, 463.9734pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1i8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1i8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1i8,7_trunc.png  used on input line 388.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1i8,7_trunc.png  used on input line 391.
 (pdftex.def)             Requested size: 204.9466pt x 153.22754pt.
-<imagenes_FP/eye_d_filter1q8,7_trunc.png, id=157, 463.9734pt x 346.896pt>
+<imagenes_FP/eye_d_filter1q8,7_trunc.png, id=167, 463.9734pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1q8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1q8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1q8,7_trunc.png  used on input line 393.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1q8,7_trunc.png  used on input line 396.
 (pdftex.def)             Requested size: 204.9466pt x 153.22754pt.
-<imagenes_FP/eye_d_filter2i8,7_trunc.png, id=158, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2i8,7_trunc.png, id=168, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2i8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2i8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2i8,7_trunc.png  used on input line 404.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2i8,7_trunc.png  used on input line 407.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter2q8,7_trunc.png, id=159, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2q8,7_trunc.png, id=169, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2q8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2q8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2q8,7_trunc.png  used on input line 409.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2q8,7_trunc.png  used on input line 412.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/constelation_filter0_opt8,7_trunc.png, id=160, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter0_opt8,7_trunc.png, id=170, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter0_opt8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/constelation_filter0_opt8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter0_opt8,7_trunc.png  used on input line 420.
+Package pdftex.def Info: imagenes_FP/constelation_filter0_opt8,7_trunc.png  used on input line 423.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter1_opt8,7_trunc.png, id=161, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter1_opt8,7_trunc.png, id=171, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter1_opt8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/constelation_filter1_opt8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter1_opt8,7_trunc.png  used on input line 426.
+Package pdftex.def Info: imagenes_FP/constelation_filter1_opt8,7_trunc.png  used on input line 429.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter2_opt8,7_trunc.png, id=162, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter2_opt8,7_trunc.png, id=172, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter2_opt8,7_trunc.png Graphic file (type png)
 <use imagenes_FP/constelation_filter2_opt8,7_trunc.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter2_opt8,7_trunc.png  used on input line 432.
+Package pdftex.def Info: imagenes_FP/constelation_filter2_opt8,7_trunc.png  used on input line 435.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
  [11 <./imagenes_FP/eye_d_filter0i8,7_trunc.png> <./imagenes_FP/eye_d_filter0q8,7_trunc.png> <./imagenes_FP/eye_d_filter1i8,7_trunc.png> <./imagenes_FP/eye_d_filter1q8,7_trunc.png> <./imagenes_FP/eye_d_filter2i8,7_trunc.png> <./imagenes_FP/eye_d_filter2q8,7_trunc.png>]
-<imagenes_FP/eye_d_filter0i8,7_round.png, id=176, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0i8,7_round.png, id=186, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0i8,7_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0i8,7_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0i8,7_round.png  used on input line 448.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0i8,7_round.png  used on input line 451.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter0q8,7_round.png, id=177, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0q8,7_round.png, id=187, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0q8,7_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0q8,7_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0q8,7_round.png  used on input line 453.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0q8,7_round.png  used on input line 456.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter1i8,7_round.png, id=178, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1i8,7_round.png, id=188, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1i8,7_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1i8,7_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1i8,7_round.png  used on input line 464.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1i8,7_round.png  used on input line 467.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter1q8,7_round.png, id=179, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1q8,7_round.png, id=189, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1q8,7_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1q8,7_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1q8,7_round.png  used on input line 469.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1q8,7_round.png  used on input line 472.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
  [12 <./imagenes_FP/constelation_filter0_opt8,7_trunc.png> <./imagenes_FP/constelation_filter1_opt8,7_trunc.png> <./imagenes_FP/constelation_filter2_opt8,7_trunc.png> <./imagenes_FP/eye_d_filter0i8,7_round.png> <./imagenes_FP/eye_d_filter0q8,7_round.png>]
-<imagenes_FP/eye_d_filter2i8,7_round.png, id=191, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2i8,7_round.png, id=201, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2i8,7_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2i8,7_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2i8,7_round.png  used on input line 480.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2i8,7_round.png  used on input line 483.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter2q8,7_round.png, id=192, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2q8,7_round.png, id=202, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2q8,7_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2q8,7_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2q8,7_round.png  used on input line 485.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2q8,7_round.png  used on input line 488.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/constelation_filters_opt8,7_round.png, id=193, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filters_opt8,7_round.png, id=203, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filters_opt8,7_round.png Graphic file (type png)
 <use imagenes_FP/constelation_filters_opt8,7_round.png>
-Package pdftex.def Info: imagenes_FP/constelation_filters_opt8,7_round.png  used on input line 496.
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt8,7_round.png  used on input line 499.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
 File: imagenes_FP/constelation_filters_opt8,7_round.png Graphic file (type png)
 <use imagenes_FP/constelation_filters_opt8,7_round.png>
-Package pdftex.def Info: imagenes_FP/constelation_filters_opt8,7_round.png  used on input line 502.
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt8,7_round.png  used on input line 505.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
 File: imagenes_FP/constelation_filters_opt8,7_round.png Graphic file (type png)
 <use imagenes_FP/constelation_filters_opt8,7_round.png>
-Package pdftex.def Info: imagenes_FP/constelation_filters_opt8,7_round.png  used on input line 508.
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt8,7_round.png  used on input line 511.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
  [13 <./imagenes_FP/eye_d_filter1i8,7_round.png> <./imagenes_FP/eye_d_filter1q8,7_round.png> <./imagenes_FP/eye_d_filter2i8,7_round.png> <./imagenes_FP/eye_d_filter2q8,7_round.png> <./imagenes_FP/constelation_filters_opt8,7_round.png>]
-<imagenes_FP/rta_imp_3,2_trunc.png, id=207, 1013.2254pt x 505.89pt>
+<imagenes_FP/rta_imp_3,2_trunc.png, id=217, 1013.2254pt x 505.89pt>
 File: imagenes_FP/rta_imp_3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/rta_imp_3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/rta_imp_3,2_trunc.png  used on input line 527.
+Package pdftex.def Info: imagenes_FP/rta_imp_3,2_trunc.png  used on input line 530.
 (pdftex.def)             Requested size: 204.9466pt x 102.32637pt.
-<imagenes_FP/rta_freq_3,2_trunc.png, id=208, 1013.2254pt x 433.62pt>
+<imagenes_FP/rta_freq_3,2_trunc.png, id=218, 1013.2254pt x 433.62pt>
 File: imagenes_FP/rta_freq_3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/rta_freq_3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/rta_freq_3,2_trunc.png  used on input line 534.
+Package pdftex.def Info: imagenes_FP/rta_freq_3,2_trunc.png  used on input line 537.
 (pdftex.def)             Requested size: 204.9466pt x 87.70831pt.
-<imagenes_FP/os_effect_3,2_trunc.png, id=209, 1013.2254pt x 505.89pt>
+<imagenes_FP/os_effect_3,2_trunc.png, id=219, 1013.2254pt x 505.89pt>
 File: imagenes_FP/os_effect_3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/os_effect_3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/os_effect_3,2_trunc.png  used on input line 546.
+Package pdftex.def Info: imagenes_FP/os_effect_3,2_trunc.png  used on input line 549.
 (pdftex.def)             Requested size: 204.9466pt x 102.32637pt.
-<imagenes_FP/simbols_in_out3,2_trunc.png, id=210, 724.1454pt x 433.62pt>
+<imagenes_FP/simbols_in_out3,2_trunc.png, id=220, 724.1454pt x 433.62pt>
 File: imagenes_FP/simbols_in_out3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/simbols_in_out3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/simbols_in_out3,2_trunc.png  used on input line 553.
+Package pdftex.def Info: imagenes_FP/simbols_in_out3,2_trunc.png  used on input line 556.
 (pdftex.def)             Requested size: 204.9466pt x 122.72284pt.
-<imagenes_FP/eye_d_filter0i3,2_trunc.png, id=211, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0i3,2_trunc.png, id=221, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0i3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0i3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0i3,2_trunc.png  used on input line 565.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0i3,2_trunc.png  used on input line 568.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter0q3,2_trunc.png, id=212, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0q3,2_trunc.png, id=222, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0q3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0q3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0q3,2_trunc.png  used on input line 570.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0q3,2_trunc.png  used on input line 573.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
  [14 <./imagenes_FP/rta_imp_3,2_trunc.png> <./imagenes_FP/rta_freq_3,2_trunc.png> <./imagenes_FP/os_effect_3,2_trunc.png> <./imagenes_FP/simbols_in_out3,2_trunc.png>]
-<imagenes_FP/eye_d_filter1i3,2_trunc.png, id=223, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1i3,2_trunc.png, id=233, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1i3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1i3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1i3,2_trunc.png  used on input line 581.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1i3,2_trunc.png  used on input line 584.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter1q3,2_trunc.png, id=224, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1q3,2_trunc.png, id=234, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1q3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1q3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1q3,2_trunc.png  used on input line 586.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1q3,2_trunc.png  used on input line 589.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter2i3,2_trunc.png, id=225, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2i3,2_trunc.png, id=235, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2i3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2i3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2i3,2_trunc.png  used on input line 597.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2i3,2_trunc.png  used on input line 600.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter2q3,2_trunc.png, id=226, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2q3,2_trunc.png, id=236, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2q3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2q3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2q3,2_trunc.png  used on input line 602.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2q3,2_trunc.png  used on input line 605.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/constelation_filter0_opt3,2_trunc.png, id=227, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter0_opt3,2_trunc.png, id=237, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter0_opt3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/constelation_filter0_opt3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter0_opt3,2_trunc.png  used on input line 613.
+Package pdftex.def Info: imagenes_FP/constelation_filter0_opt3,2_trunc.png  used on input line 616.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter1_opt3,2_trunc.png, id=228, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter1_opt3,2_trunc.png, id=238, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter1_opt3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/constelation_filter1_opt3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter1_opt3,2_trunc.png  used on input line 619.
+Package pdftex.def Info: imagenes_FP/constelation_filter1_opt3,2_trunc.png  used on input line 622.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
-<imagenes_FP/constelation_filter2_opt3,2_trunc.png, id=229, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filter2_opt3,2_trunc.png, id=239, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filter2_opt3,2_trunc.png Graphic file (type png)
 <use imagenes_FP/constelation_filter2_opt3,2_trunc.png>
-Package pdftex.def Info: imagenes_FP/constelation_filter2_opt3,2_trunc.png  used on input line 625.
+Package pdftex.def Info: imagenes_FP/constelation_filter2_opt3,2_trunc.png  used on input line 628.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
  [15 <./imagenes_FP/eye_d_filter0i3,2_trunc.png> <./imagenes_FP/eye_d_filter0q3,2_trunc.png> <./imagenes_FP/eye_d_filter1i3,2_trunc.png> <./imagenes_FP/eye_d_filter1q3,2_trunc.png> <./imagenes_FP/eye_d_filter2i3,2_trunc.png> <./imagenes_FP/eye_d_filter2q3,2_trunc.png>]
-<imagenes_FP/rta_imp_3,2_round.png, id=243, 1011.78pt x 505.89pt>
+<imagenes_FP/rta_imp_3,2_round.png, id=253, 1011.78pt x 505.89pt>
 File: imagenes_FP/rta_imp_3,2_round.png Graphic file (type png)
 <use imagenes_FP/rta_imp_3,2_round.png>
-Package pdftex.def Info: imagenes_FP/rta_imp_3,2_round.png  used on input line 639.
+Package pdftex.def Info: imagenes_FP/rta_imp_3,2_round.png  used on input line 642.
 (pdftex.def)             Requested size: 204.9466pt x 102.47304pt.
-<imagenes_FP/rta_freq_3,2_round.png, id=244, 1011.78pt x 433.62pt>
+<imagenes_FP/rta_freq_3,2_round.png, id=254, 1011.78pt x 433.62pt>
 File: imagenes_FP/rta_freq_3,2_round.png Graphic file (type png)
 <use imagenes_FP/rta_freq_3,2_round.png>
-Package pdftex.def Info: imagenes_FP/rta_freq_3,2_round.png  used on input line 646.
+Package pdftex.def Info: imagenes_FP/rta_freq_3,2_round.png  used on input line 649.
 (pdftex.def)             Requested size: 204.9466pt x 87.83403pt.
-<imagenes_FP/os_effect_3,2_round.png, id=245, 1013.2254pt x 505.89pt>
+<imagenes_FP/os_effect_3,2_round.png, id=255, 1013.2254pt x 505.89pt>
 File: imagenes_FP/os_effect_3,2_round.png Graphic file (type png)
 <use imagenes_FP/os_effect_3,2_round.png>
-Package pdftex.def Info: imagenes_FP/os_effect_3,2_round.png  used on input line 658.
+Package pdftex.def Info: imagenes_FP/os_effect_3,2_round.png  used on input line 661.
 (pdftex.def)             Requested size: 204.9466pt x 102.32637pt.
-<imagenes_FP/simbols_in_out3,2_round.png, id=246, 722.7pt x 433.62pt>
+<imagenes_FP/simbols_in_out3,2_round.png, id=256, 722.7pt x 433.62pt>
 File: imagenes_FP/simbols_in_out3,2_round.png Graphic file (type png)
 <use imagenes_FP/simbols_in_out3,2_round.png>
-Package pdftex.def Info: imagenes_FP/simbols_in_out3,2_round.png  used on input line 665.
+Package pdftex.def Info: imagenes_FP/simbols_in_out3,2_round.png  used on input line 668.
 (pdftex.def)             Requested size: 204.9466pt x 122.96765pt.
-<imagenes_FP/eye_d_filter0i3,2_round.png, id=247, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0i3,2_round.png, id=257, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0i3,2_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0i3,2_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0i3,2_round.png  used on input line 677.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0i3,2_round.png  used on input line 680.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter0q3,2_round.png, id=248, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter0q3,2_round.png, id=258, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter0q3,2_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter0q3,2_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter0q3,2_round.png  used on input line 682.
+Package pdftex.def Info: imagenes_FP/eye_d_filter0q3,2_round.png  used on input line 685.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
  [16 <./imagenes_FP/constelation_filter0_opt3,2_trunc.png> <./imagenes_FP/constelation_filter1_opt3,2_trunc.png> <./imagenes_FP/constelation_filter2_opt3,2_trunc.png> <./imagenes_FP/rta_imp_3,2_round.png> <./imagenes_FP/rta_freq_3,2_round.png> <./imagenes_FP/os_effect_3,2_round.png> <./imagenes_FP/simbols_in_out3,2_round.png>]
-<imagenes_FP/eye_d_filter1i3,2_round.png, id=263, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1i3,2_round.png, id=273, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1i3,2_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1i3,2_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1i3,2_round.png  used on input line 693.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1i3,2_round.png  used on input line 696.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter1q3,2_round.png, id=264, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter1q3,2_round.png, id=274, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter1q3,2_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter1q3,2_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter1q3,2_round.png  used on input line 698.
+Package pdftex.def Info: imagenes_FP/eye_d_filter1q3,2_round.png  used on input line 701.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter2i3,2_round.png, id=265, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2i3,2_round.png, id=275, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2i3,2_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2i3,2_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2i3,2_round.png  used on input line 709.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2i3,2_round.png  used on input line 712.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/eye_d_filter2q3,2_round.png, id=266, 462.528pt x 346.896pt>
+<imagenes_FP/eye_d_filter2q3,2_round.png, id=276, 462.528pt x 346.896pt>
 File: imagenes_FP/eye_d_filter2q3,2_round.png Graphic file (type png)
 <use imagenes_FP/eye_d_filter2q3,2_round.png>
-Package pdftex.def Info: imagenes_FP/eye_d_filter2q3,2_round.png  used on input line 714.
+Package pdftex.def Info: imagenes_FP/eye_d_filter2q3,2_round.png  used on input line 717.
 (pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
-<imagenes_FP/constelation_filters_opt3,2_round.png, id=267, 433.62pt x 433.62pt>
+<imagenes_FP/constelation_filters_opt3,2_round.png, id=277, 433.62pt x 433.62pt>
 File: imagenes_FP/constelation_filters_opt3,2_round.png Graphic file (type png)
 <use imagenes_FP/constelation_filters_opt3,2_round.png>
-Package pdftex.def Info: imagenes_FP/constelation_filters_opt3,2_round.png  used on input line 725.
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt3,2_round.png  used on input line 728.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
 File: imagenes_FP/constelation_filters_opt3,2_round.png Graphic file (type png)
 <use imagenes_FP/constelation_filters_opt3,2_round.png>
-Package pdftex.def Info: imagenes_FP/constelation_filters_opt3,2_round.png  used on input line 731.
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt3,2_round.png  used on input line 734.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
 File: imagenes_FP/constelation_filters_opt3,2_round.png Graphic file (type png)
 <use imagenes_FP/constelation_filters_opt3,2_round.png>
-Package pdftex.def Info: imagenes_FP/constelation_filters_opt3,2_round.png  used on input line 737.
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt3,2_round.png  used on input line 740.
 (pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
- [17 <./imagenes_FP/eye_d_filter0i3,2_round.png> <./imagenes_FP/eye_d_filter0q3,2_round.png> <./imagenes_FP/eye_d_filter1i3,2_round.png> <./imagenes_FP/eye_d_filter1q3,2_round.png> <./imagenes_FP/eye_d_filter2i3,2_round.png> <./imagenes_FP/eye_d_filter2q3,2_round.png>] [18 <./imagenes_FP/constelation_filters_opt3,2_round.png>] (Informe_FP.aux
+ [17 <./imagenes_FP/eye_d_filter0i3,2_round.png> <./imagenes_FP/eye_d_filter0q3,2_round.png> <./imagenes_FP/eye_d_filter1i3,2_round.png> <./imagenes_FP/eye_d_filter1q3,2_round.png> <./imagenes_FP/eye_d_filter2i3,2_round.png> <./imagenes_FP/eye_d_filter2q3,2_round.png>]
+<imagenes_FP/rta_imp_6,4_trunc.png, id=291, 1013.2254pt x 505.89pt>
+File: imagenes_FP/rta_imp_6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/rta_imp_6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/rta_imp_6,4_trunc.png  used on input line 757.
+(pdftex.def)             Requested size: 204.9466pt x 102.32637pt.
+<imagenes_FP/rta_freq_6,4_trunc.png, id=292, 1013.2254pt x 433.62pt>
+File: imagenes_FP/rta_freq_6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/rta_freq_6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/rta_freq_6,4_trunc.png  used on input line 764.
+(pdftex.def)             Requested size: 204.9466pt x 87.70831pt.
+<imagenes_FP/os_effect_6,4_trunc.png, id=293, 1013.2254pt x 505.89pt>
+File: imagenes_FP/os_effect_6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/os_effect_6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/os_effect_6,4_trunc.png  used on input line 776.
+(pdftex.def)             Requested size: 204.9466pt x 102.32637pt.
+<imagenes_FP/simbols_in_out6,4_trunc.png, id=294, 722.7pt x 433.62pt>
+File: imagenes_FP/simbols_in_out6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/simbols_in_out6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/simbols_in_out6,4_trunc.png  used on input line 783.
+(pdftex.def)             Requested size: 204.9466pt x 122.96765pt.
+ [18 <./imagenes_FP/constelation_filters_opt3,2_round.png> <./imagenes_FP/rta_imp_6,4_trunc.png> <./imagenes_FP/rta_freq_6,4_trunc.png>]
+<imagenes_FP/eye_d_filter0i6,4_trunc.png, id=304, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter0i6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter0i6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter0i6,4_trunc.png  used on input line 795.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter0q6,4_trunc.png, id=305, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter0q6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter0q6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter0q6,4_trunc.png  used on input line 800.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter1i6,4_trunc.png, id=306, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter1i6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter1i6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter1i6,4_trunc.png  used on input line 811.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter1q6,4_trunc.png, id=307, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter1q6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter1q6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter1q6,4_trunc.png  used on input line 816.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter2i6,4_trunc.png, id=308, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter2i6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter2i6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter2i6,4_trunc.png  used on input line 827.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter2q6,4_trunc.png, id=309, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter2q6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter2q6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter2q6,4_trunc.png  used on input line 832.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+ [19 <./imagenes_FP/os_effect_6,4_trunc.png> <./imagenes_FP/simbols_in_out6,4_trunc.png> <./imagenes_FP/eye_d_filter0i6,4_trunc.png> <./imagenes_FP/eye_d_filter0q6,4_trunc.png> <./imagenes_FP/eye_d_filter1i6,4_trunc.png> <./imagenes_FP/eye_d_filter1q6,4_trunc.png>]
+<imagenes_FP/constelation_filter0_opt6,4_trunc.png, id=324, 433.62pt x 433.62pt>
+File: imagenes_FP/constelation_filter0_opt6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/constelation_filter0_opt6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/constelation_filter0_opt6,4_trunc.png  used on input line 843.
+(pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
+<imagenes_FP/constelation_filter1_opt6,4_trunc.png, id=325, 433.62pt x 433.62pt>
+File: imagenes_FP/constelation_filter1_opt6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/constelation_filter1_opt6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/constelation_filter1_opt6,4_trunc.png  used on input line 849.
+(pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
+<imagenes_FP/constelation_filter2_opt6,4_trunc.png, id=326, 433.62pt x 433.62pt>
+File: imagenes_FP/constelation_filter2_opt6,4_trunc.png Graphic file (type png)
+<use imagenes_FP/constelation_filter2_opt6,4_trunc.png>
+Package pdftex.def Info: imagenes_FP/constelation_filter2_opt6,4_trunc.png  used on input line 855.
+(pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
+<imagenes_FP/rta_imp_6,4_round.png, id=327, 1011.78pt x 505.89pt>
+File: imagenes_FP/rta_imp_6,4_round.png Graphic file (type png)
+<use imagenes_FP/rta_imp_6,4_round.png>
+Package pdftex.def Info: imagenes_FP/rta_imp_6,4_round.png  used on input line 869.
+(pdftex.def)             Requested size: 204.9466pt x 102.47304pt.
+<imagenes_FP/rta_freq_6,4_round.png, id=328, 1011.78pt x 433.62pt>
+File: imagenes_FP/rta_freq_6,4_round.png Graphic file (type png)
+<use imagenes_FP/rta_freq_6,4_round.png>
+Package pdftex.def Info: imagenes_FP/rta_freq_6,4_round.png  used on input line 876.
+(pdftex.def)             Requested size: 204.9466pt x 87.83403pt.
+<imagenes_FP/os_effect_6,4_round.png, id=329, 1011.78pt x 505.89pt>
+File: imagenes_FP/os_effect_6,4_round.png Graphic file (type png)
+<use imagenes_FP/os_effect_6,4_round.png>
+Package pdftex.def Info: imagenes_FP/os_effect_6,4_round.png  used on input line 888.
+(pdftex.def)             Requested size: 204.9466pt x 102.47304pt.
+<imagenes_FP/simbols_in_out6,4_round.png, id=330, 722.7pt x 433.62pt>
+File: imagenes_FP/simbols_in_out6,4_round.png Graphic file (type png)
+<use imagenes_FP/simbols_in_out6,4_round.png>
+Package pdftex.def Info: imagenes_FP/simbols_in_out6,4_round.png  used on input line 895.
+(pdftex.def)             Requested size: 204.9466pt x 122.96765pt.
+ [20 <./imagenes_FP/eye_d_filter2i6,4_trunc.png> <./imagenes_FP/eye_d_filter2q6,4_trunc.png> <./imagenes_FP/constelation_filter0_opt6,4_trunc.png> <./imagenes_FP/constelation_filter1_opt6,4_trunc.png> <./imagenes_FP/constelation_filter2_opt6,4_trunc.png> <./imagenes_FP/rta_imp_6,4_round.png> <./imagenes_FP/rta_freq_6,4_round.png>]
+<imagenes_FP/eye_d_filter0i6,4_round.png, id=345, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter0i6,4_round.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter0i6,4_round.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter0i6,4_round.png  used on input line 907.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter0q6,4_round.png, id=346, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter0q6,4_round.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter0q6,4_round.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter0q6,4_round.png  used on input line 912.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter1i6,4_round.png, id=347, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter1i6,4_round.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter1i6,4_round.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter1i6,4_round.png  used on input line 923.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter1q6,4_round.png, id=348, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter1q6,4_round.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter1q6,4_round.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter1q6,4_round.png  used on input line 928.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter2i6,4_round.png, id=349, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter2i6,4_round.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter2i6,4_round.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter2i6,4_round.png  used on input line 939.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+<imagenes_FP/eye_d_filter2q6,4_round.png, id=350, 462.528pt x 346.896pt>
+File: imagenes_FP/eye_d_filter2q6,4_round.png Graphic file (type png)
+<use imagenes_FP/eye_d_filter2q6,4_round.png>
+Package pdftex.def Info: imagenes_FP/eye_d_filter2q6,4_round.png  used on input line 944.
+(pdftex.def)             Requested size: 204.9466pt x 153.70923pt.
+ [21 <./imagenes_FP/os_effect_6,4_round.png> <./imagenes_FP/simbols_in_out6,4_round.png> <./imagenes_FP/eye_d_filter0i6,4_round.png> <./imagenes_FP/eye_d_filter0q6,4_round.png> <./imagenes_FP/eye_d_filter1i6,4_round.png> <./imagenes_FP/eye_d_filter1q6,4_round.png>]
+<imagenes_FP/constelation_filters_opt6,4_round.png, id=364, 433.62pt x 433.62pt>
+File: imagenes_FP/constelation_filters_opt6,4_round.png Graphic file (type png)
+<use imagenes_FP/constelation_filters_opt6,4_round.png>
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt6,4_round.png  used on input line 955.
+(pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
+File: imagenes_FP/constelation_filters_opt6,4_round.png Graphic file (type png)
+<use imagenes_FP/constelation_filters_opt6,4_round.png>
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt6,4_round.png  used on input line 961.
+(pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
+File: imagenes_FP/constelation_filters_opt6,4_round.png Graphic file (type png)
+<use imagenes_FP/constelation_filters_opt6,4_round.png>
+Package pdftex.def Info: imagenes_FP/constelation_filters_opt6,4_round.png  used on input line 967.
+(pdftex.def)             Requested size: 133.84424pt x 133.84517pt.
+ [22 <./imagenes_FP/eye_d_filter2i6,4_round.png> <./imagenes_FP/eye_d_filter2q6,4_round.png> <./imagenes_FP/constelation_filters_opt6,4_round.png>]
+Underfull \hbox (badness 1845) in paragraph at lines 1044--1044
+\OT1/cmr/m/n/12 -C^^Sompu-to in-ter-me-
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 1044--1044
+\OT1/cmr/m/n/12 -C^^Sompu-to in-ter-me-
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 1044--1044
+\OT1/cmr/m/n/12 -Cantidad de bits
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 1044--1044
+\OT1/cmr/m/n/12 -C^^Sompu-to mi-ni-mi-
+ []
+
+[23] [24] (Informe_FP.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1041,25 +1224,21 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Informe_FP.out' has not changed.
-(rerunfilecheck)             Checksum: BC2C02C45B7204838D00101BD1CB965B;1195.
+(rerunfilecheck)             Checksum: 747EA077572AE582E591DCF3763A6AD5;1521.
  ) 
 Here is how much of TeX's memory you used:
- 28553 strings out of 467691
- 574623 string characters out of 5414987
- 991548 words of memory out of 5000000
- 57146 multiletter control sequences out of 15000+600000
+ 28984 strings out of 467691
+ 587460 string characters out of 5414987
+ 998040 words of memory out of 5000000
+ 57548 multiletter control sequences out of 15000+600000
  634742 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,8n,108p,507b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,108p,507b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Informe_FP.pdf (18 pages, 2695669 bytes).
+Output written on Informe_FP.pdf (24 pages, 4091448 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 374 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 510 words of extra memory for PDF output out of 10000 (max. 10000000)
 

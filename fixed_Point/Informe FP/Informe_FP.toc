@@ -6,3 +6,5 @@
 \contentsline {subsection}{\numberline {2.3}Cuantización S(8,7)}{10}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Cuantización S(3,2)}{14}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Cuantización S(6,4)}{18}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Diferencias entre cuantizaciones}{22}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Conclusiones}{24}{section.3}%

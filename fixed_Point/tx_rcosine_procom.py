@@ -57,9 +57,9 @@ def rcosine(beta, Tbaud, oversampling, Nbauds, Norm):
 (t,rc1_nq) = rcosine(beta[1], T,os,Nbauds,Norm=False)
 (t,rc2_nq) = rcosine(beta[2], T,os,Nbauds,Norm=False)
 
-rc0_q = arrayFixedInt(3,2,rc0_nq,signedMode='S',roundMode='round',saturateMode='saturate')
-rc1_q = arrayFixedInt(3,2,rc1_nq,signedMode='S',roundMode='round',saturateMode='saturate')
-rc2_q = arrayFixedInt(3,2,rc2_nq,signedMode='S',roundMode='round',saturateMode='saturate')
+rc0_q = arrayFixedInt(6,4,rc0_nq,signedMode='S',roundMode='round',saturateMode='saturate')
+rc1_q = arrayFixedInt(6,4,rc1_nq,signedMode='S',roundMode='round',saturateMode='saturate')
+rc2_q = arrayFixedInt(6,4,rc2_nq,signedMode='S',roundMode='round',saturateMode='saturate')
 
 rc0 = np.array([c.fValue for c in rc0_q])
 rc1 = np.array([c.fValue for c in rc1_q])

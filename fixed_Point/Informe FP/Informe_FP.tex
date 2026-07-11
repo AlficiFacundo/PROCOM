@@ -18,6 +18,9 @@
 \usepackage{booktabs}
 \usepackage{subcaption}
 \usepackage{chngcntr}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{ragged2e}
 
 \counterwithin{figure}{subsection}
 \tcbuselibrary{listings, skins}
@@ -333,14 +336,14 @@ comparaciones se harán en un subapartado externo.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/rta_imp_8,7_trunc.png}
         \caption{Respuesta al impulso según $\alpha$}
-        \label{fig:rta_imp_8,7_trunc}
+        \label{fig:rta_imp_8_7_trunc}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/rta_freq_8,7_trunc.png}
         \caption{Respuesta en frecuencia según $\alpha$}
-        \label{fig:rta_freq_8,7_trunc}
+        \label{fig:rta_freq_8_7_trunc}
     \end{subfigure}
     \caption{Respuesta en tiempo y frecuencia S(8,7) truncado}
 \end{figure}
@@ -352,14 +355,14 @@ comparaciones se harán en un subapartado externo.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/os_effect_8,7_trunc.png}
         \caption{Convolución según $\alpha$}
-        \label{fig:os_effect_8,7_trunc}
+        \label{fig:os_effect_8_7_trunc}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/simbols_in_out8,7_trunc.png}
         \caption{Señal transmitida según $\alpha$}
-        \label{fig:simbols_in_out8,7_trunc}
+        \label{fig:simbols_in_out8_7_trunc}
     \end{subfigure}
     \caption{Convolución y Transmisión S(8,7) truncado}
 \end{figure}
@@ -376,8 +379,8 @@ comparaciones se harán en un subapartado externo.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0q8,7_trunc.png}
     \end{subfigure}
-    \label{fig:eye_d_filter0q8,7_trunc}
     \caption{Diagrama de ojo S(8,7) truncado con $\alpha=0$}
+    \label{fig:eye_d_filter0q8_7_trunc}
 \end{figure}
 
 \begin{figure}[H]
@@ -392,8 +395,8 @@ comparaciones se harán en un subapartado externo.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1q8,7_trunc.png}
     \end{subfigure}
-    \label{fig:eye_d_filter1q8,7_trunc}
     \caption{Diagrama de ojo S(8,7) truncado con $\alpha=0.5$}
+    \label{fig:eye_d_filter1q8_7_trunc}
 \end{figure}
 
 \begin{figure}[H]
@@ -408,8 +411,8 @@ comparaciones se harán en un subapartado externo.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2q8,7_trunc.png}
     \end{subfigure}
-    \label{fig:eye_d_filter2q8,7_trunc}
     \caption{Diagrama de ojo S(8,7) truncado con $\alpha=1$}
+    \label{fig:eye_d_filter2q8_7_trunc}
 \end{figure}
 
 \begin{figure}[H]
@@ -432,8 +435,8 @@ comparaciones se harán en un subapartado externo.
         \includegraphics[width=\linewidth]{imagenes_FP/constelation_filter2_opt8,7_trunc.png}
         \caption{$\alpha=1$}
     \end{subfigure}
-    \label{fig:constelations_filters_opt8,7_trunc}
     \caption{Constelaciones según $\alpha$ para S(8,7) truncado}
+    \label{fig:constelations_filters_opt8_7_trunc}
 \end{figure}
 
 De igual manera, se realizará el mismo procedimiento pero cuantizando con redondeo.
@@ -452,8 +455,8 @@ la convolución y la señal transmitida debido a que la diferencia es mínima pa
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0q8,7_round.png}
     \end{subfigure}
-    \label{fig:eye_d_filter0q8,7_round}
     \caption{Diagrama de ojo S(8,7) rounded con $\alpha=0$}
+    \label{fig:eye_d_filter0q8_7_round}
 \end{figure}
 
 \begin{figure}[H]
@@ -468,8 +471,8 @@ la convolución y la señal transmitida debido a que la diferencia es mínima pa
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1q8,7_round.png}
     \end{subfigure}
-    \label{fig:eye_d_filter1q8,7_round}
     \caption{Diagrama de ojo S(8,7) rounded con $\alpha=0.5$}
+    \label{fig:eye_d_filter1q8_7_round}
 \end{figure}
 
 \begin{figure}[H]
@@ -484,8 +487,8 @@ la convolución y la señal transmitida debido a que la diferencia es mínima pa
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2q8,7_round.png}
     \end{subfigure}
-    \label{fig:eye_d_filter2q8,7_round}
     \caption{Diagrama de ojo S(8,7) rounded con $\alpha=1$}
+    \label{fig:eye_d_filter2q8_7_round}
 \end{figure}
 
 \begin{figure}[H]
@@ -508,8 +511,8 @@ la convolución y la señal transmitida debido a que la diferencia es mínima pa
         \includegraphics[width=\linewidth]{imagenes_FP/constelation_filters_opt8,7_round.png}
         \caption{$\alpha=1$}
     \end{subfigure}
-    \label{fig:constelations_filters_opt8,7_trunc}
     \caption{Constelaciones según $\alpha$ para S(8,7) rounded}
+    \label{fig:constelations_filters_opt8_7_round}
 \end{figure}
 
 
@@ -526,14 +529,14 @@ de ambas respuestas, logrando una SNR muy pobre.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/rta_imp_3,2_trunc.png}
         \caption{Respuesta al impulso según $\alpha$}
-        \label{fig:rta_imp_3,2_trunc}
+        \label{fig:rta_imp_3_2_trunc}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/rta_freq_3,2_trunc.png}
         \caption{Respuesta en frecuencia según $\alpha$}
-        \label{fig:rta_freq_3,2_trunc}
+        \label{fig:rta_freq_3_2_trunc}
     \end{subfigure}
     \caption{Respuesta en tiempo y frecuencia S(3,2) truncado}
 \end{figure}
@@ -545,14 +548,14 @@ de ambas respuestas, logrando una SNR muy pobre.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/os_effect_3,2_trunc.png}
         \caption{Convolución según $\alpha$}
-        \label{fig:os_effect_3,2_trunc}
+        \label{fig:os_effect_3_2_trunc}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/simbols_in_out3,2_trunc.png}
         \caption{Señal transmitida según $\alpha$}
-        \label{fig:simbols_in_out3,2_trunc}
+        \label{fig:simbols_in_out3_2_trunc}
     \end{subfigure}
     \caption{Convolución y Transmisión S(3,2) truncado}
 \end{figure}
@@ -569,8 +572,8 @@ de ambas respuestas, logrando una SNR muy pobre.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0q3,2_trunc.png}
     \end{subfigure}
-    \label{fig:eye_d_filter0q3,2_trunc}
     \caption{Diagrama de ojo S(3,2) truncado con $\alpha=0$}
+    \label{fig:eye_d_filter0q3_2_trunc}
 \end{figure}
 
 \begin{figure}[H]
@@ -585,8 +588,8 @@ de ambas respuestas, logrando una SNR muy pobre.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1q3,2_trunc.png}
     \end{subfigure}
-    \label{fig:eye_d_filter1q3,2_trunc}
     \caption{Diagrama de ojo S(3,2) truncado con $\alpha=0.5$}
+    \label{fig:eye_d_filter1q3_2_trunc}
 \end{figure}
 
 \begin{figure}[H]
@@ -601,8 +604,8 @@ de ambas respuestas, logrando una SNR muy pobre.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2q3,2_trunc.png}
     \end{subfigure}
-    \label{fig:eye_d_filter2q3,2_trunc}
     \caption{Diagrama de ojo S(3,2) truncado con $\alpha=1$}
+    \label{fig:eye_d_filter2q3_2_trunc}
 \end{figure}
 
 \begin{figure}[H]
@@ -625,8 +628,8 @@ de ambas respuestas, logrando una SNR muy pobre.
         \includegraphics[width=\linewidth]{imagenes_FP/constelation_filter2_opt3,2_trunc.png}
         \caption{$\alpha=1$}
     \end{subfigure}
-    \label{fig:constelations_filters_opt3,2_trunc}
     \caption{Constelaciones según $\alpha$ para S(3,2) truncado}
+    \label{fig:constelations_filters_opt3_2_trunc}
 \end{figure}
 
 Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
@@ -638,14 +641,14 @@ Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/rta_imp_3,2_round.png}
         \caption{Respuesta al impulso según $\alpha$}
-        \label{fig:rta_imp_3,2_round}
+        \label{fig:rta_imp_3_2_round}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/rta_freq_3,2_round.png}
         \caption{Respuesta en frecuencia según $\alpha$}
-        \label{fig:rta_freq_3,2_round}
+        \label{fig:rta_freq_3_2_round}
     \end{subfigure}
     \caption{Respuesta en tiempo y frecuencia S(3,2) rounded}
 \end{figure}
@@ -657,14 +660,14 @@ Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/os_effect_3,2_round.png}
         \caption{Convolución según $\alpha$}
-        \label{fig:os_effect_3,2_round}
+        \label{fig:os_effect_3_2_round}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/simbols_in_out3,2_round.png}
         \caption{Señal transmitida según $\alpha$}
-        \label{fig:simbols_in_out3,2_round}
+        \label{fig:simbols_in_out3_2_round}
     \end{subfigure}
     \caption{Convolución y Transmisión S(3,2) rounded}
 \end{figure}
@@ -681,8 +684,8 @@ Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0q3,2_round.png}
     \end{subfigure}
-    \label{fig:eye_d_filter0q3,2_round}
     \caption{Diagrama de ojo S(3,2) rounded con $\alpha=0$}
+    \label{fig:eye_d_filter0q3_2_round}
 \end{figure}
 
 \begin{figure}[H]
@@ -697,8 +700,8 @@ Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1q3,2_round.png}
     \end{subfigure}
-    \label{fig:eye_d_filter1q3,2_round}
     \caption{Diagrama de ojo S(3,2) rounded con $\alpha=0.5$}
+    \label{fig:eye_d_filter1q3_2_round}
 \end{figure}
 
 \begin{figure}[H]
@@ -713,8 +716,8 @@ Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
         \centering
         \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2q3,2_round.png}
     \end{subfigure}
-    \label{fig:eye_d_filter2q3,2_round}
     \caption{Diagrama de ojo S(3,2) rounded con $\alpha=1$}
+    \label{fig:eye_d_filter2q3_2_round}
 \end{figure}
 
 \begin{figure}[H]
@@ -737,11 +740,322 @@ Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
         \includegraphics[width=\linewidth]{imagenes_FP/constelation_filters_opt3,2_round.png}
         \caption{$\alpha=1$}
     \end{subfigure}
-    \label{fig:constelations_filters_opt3,2_round}
     \caption{Constelaciones según $\alpha$ para S(3,2) rounded}
+    \label{fig:constelations_filters_opt3_2_round}
 \end{figure}
 
 \subsection{Cuantización S(6,4)}
 
+ Para la última cuantización solicitada, se analizarán todos los gráficos nuevamente, debido a que con la 
+ misma se llegará a una conclusión importante.
 
+ \begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/rta_imp_6,4_trunc.png}
+        \caption{Respuesta al impulso según $\alpha$}
+        \label{fig:rta_imp_6_4_trunc}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/rta_freq_6,4_trunc.png}
+        \caption{Respuesta en frecuencia según $\alpha$}
+        \label{fig:rta_freq_6_4_trunc}
+    \end{subfigure}
+    \caption{Respuesta en tiempo y frecuencia S(6,4) truncado}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/os_effect_6,4_trunc.png}
+        \caption{Convolución según $\alpha$}
+        \label{fig:os_effect_6_4_trunc}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/simbols_in_out6,4_trunc.png}
+        \caption{Señal transmitida según $\alpha$}
+        \label{fig:simbols_in_out6_4_trunc}
+    \end{subfigure}
+    \caption{Convolución y Transmisión S(6,4) truncado}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0i6,4_trunc.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0q6,4_trunc.png}
+    \end{subfigure}
+    \label{fig:eye_d_filter0q6_4_trunc}
+    \caption{Diagrama de ojo S(6,4) truncado con $\alpha=0$}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1i6,4_trunc.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1q6,4_trunc.png}
+    \end{subfigure}
+    \caption{Diagrama de ojo S(6,4) truncado con $\alpha=0.5$}
+    \label{fig:eye_d_filter1q6_4_trunc}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2i6,4_trunc.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2q6,4_trunc.png}
+    \end{subfigure}
+    \caption{Diagrama de ojo S(6,4) truncado con $\alpha=1$}
+    \label{fig:eye_d_filter2q6_4_trunc}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/constelation_filter0_opt6,4_trunc.png}
+        \caption{$\alpha=0$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/constelation_filter1_opt6,4_trunc.png}
+        \caption{$\alpha=0.5$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/constelation_filter2_opt6,4_trunc.png}
+        \caption{$\alpha=1$}
+    \end{subfigure}
+    \caption{Constelaciones según $\alpha$ para S(6,4) truncado}
+    \label{fig:constelations_filters_opt6_4_trunc}
+\end{figure}
+
+Ahora, si se utiliza el redondeo se obtienen las siguientes capturas.
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/rta_imp_6,4_round.png}
+        \caption{Respuesta al impulso según $\alpha$}
+        \label{fig:rta_imp_6_4_round}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/rta_freq_6,4_round.png}
+        \caption{Respuesta en frecuencia según $\alpha$}
+        \label{fig:rta_freq_6_4_round}
+    \end{subfigure}
+    \caption{Respuesta en tiempo y frecuencia S(6,4) rounded}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/os_effect_6,4_round.png}
+        \caption{Convolución según $\alpha$}
+        \label{fig:os_effect_6_4_round}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/simbols_in_out6,4_round.png}
+        \caption{Señal transmitida según $\alpha$}
+        \label{fig:simbols_in_out6_4_round}
+    \end{subfigure}
+    \caption{Convolución y Transmisión S(6,4) rounded}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0i6,4_round.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter0q6,4_round.png}
+    \end{subfigure}
+    \caption{Diagrama de ojo S(6,4) rounded con $\alpha=0$}
+    \label{fig:eye_d_filter0q6_4_round}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1i6,4_round.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter1q6,4_round.png}
+    \end{subfigure}
+    \caption{Diagrama de ojo S(6,4) rounded con $\alpha=0.5$}
+    \label{fig:eye_d_filter1q6_4_round}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2i6,4_round.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/eye_d_filter2q6,4_round.png}
+    \end{subfigure}
+    \caption{Diagrama de ojo S(6,4) rounded con $\alpha=1$}
+    \label{fig:eye_d_filter2q6_4_round}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/constelation_filters_opt6,4_round.png}
+        \caption{$\alpha=0$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/constelation_filters_opt6,4_round.png}
+        \caption{$\alpha=0.5$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.32\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{imagenes_FP/constelation_filters_opt6,4_round.png}
+        \caption{$\alpha=1$}
+    \end{subfigure}
+    \caption{Constelaciones según $\alpha$ para S(6,4) rounded}
+    \label{fig:constelations_filters_opt6_4_round}
+\end{figure}
+
+\subsection{Diferencias entre cuantizaciones}
+
+En esta sección se analizarán las \textbf{ventajas y desventajas} obtenidas para cada una
+de las cuantizaciones realizadas, observando todos los gráficos obtenidos y comparándolos
+entre si para ver cuál es el más óptimo para una comunicación normalizada.
+
+Para comenzar, resaltando lo obvio, fue muy importante la cantidad de bits a utilizar para la cuantización.
+Esta selección de bits tendrá un papel fundamental en la calidad de la señal recibida.
+
+Los principales prospectos que muestran esta diferencia son las \textbf{cuantizaciones S(3,2) y S(8,7)}, donde se
+puede ver con claridad en las figuras \ref{fig:rta_imp_3_2_trunc} y \ref{fig:rta_freq_3_2_trunc}, donde prácticamente
+no se puede distinguir el ruido de los símbolos enviados sin importar si se utiliza truncado o redondeo, como lo muestran las figuras
+\ref{fig:rta_imp_3_2_round} y \ref{fig:rta_freq_3_2_round}.
+
+El diagrama de ojo y la constelación de la \textbf{cuantización S(3,2)} también muestran un importante
+aspecto en el análisis; En las figuras \ref{fig:constelations_filters_opt3_2_trunc} y \ref{fig:constelations_filters_opt3_2_round}
+se observa que la selección entre el redondeo y el truncado tiene un papel clave en la minimzación de la ISI.
+
+Se puede reforzar esta conclusión en la \textbf{cuantización S(8,7)}, donde en las figuras
+\ref{fig:constelations_filters_opt8_7_trunc} y \ref{fig:constelations_filters_opt8_7_round} se observa
+la minimización de la ISI en las constelaciones por el efecto del redondeo.
+
+Por último, la cuantización más equilibrada fue la \textbf{S(6,4)}, donde la cantidad de bits es la justa
+como para representar fielmente los símbolos enviados, como se puede ver en las figuras \ref{fig:simbols_in_out6_4_round} y \ref{fig:simbols_in_out6_4_trunc}. Donde
+los símbolos recibidos pueden reconocerse en gran medida, aunque no tan bien como en la \textbf{cuantización S(8,7)}. Esto se debe a que, aunque la cantidad de bits 
+totales no sea tan diferente, sí lo es la cantidad de bits fraccionarios, siendo casi el doble en la segunda. De igual manera, 
+la relación entre la cantidad de bits enteros también cambia, lo que hace que se pierda aún más calidad.
+
+Esto se puede mejorar manteniendo la relación de bits enteros, es decir, utilizando una \textbf{cuantización S(6,5)}
+
+En lo que respecta al redondeo, la ISI nuevamente se vuelve nula en los coeficientes redondeados, como se ve en la figura \ref{fig:constelations_filters_opt6_4_round}
+
+Se confeccionó un cuadro resumen para mejorar la comparación de cada cuantización.
+
+\begin{table}[h]
+    \centering
+    \caption{Rendimiento según el tipo de Cuantización}
+    \label{tab:tabla_cuantizaciones}
+    \begin{tabularx}{\textwidth}{lXXX}
+        \toprule
+        \textbf{Estrategia} & \textbf{S(8,7)} & \textbf{S(6,4)} & \textbf{S(3,2)} \\
+        \midrule
+        Redondeo &
+        -ISI nula. \newline
+        -Buena cantidad de bits. Respuesta casi perfecta \newline
+        -Mayor cómputo.
+        &
+        -ISI nula. \newline
+        -Respuesta fiel pero inexacta. \newline
+        -Cómputo intermedio.
+        &
+        -ISI nula pero constelación desplazada. \newline
+        -SNR baja. \newline
+        -Cómputo bajo.
+        \\
+        \midrule
+        Truncado &
+        -Muy poca ISI. \newline
+        -Buena cantidad de bits, respuesta aceptable. \newline
+        -Cómputo intermedio.
+        &
+        -ISI significativa. \newline
+        -Cantidad de bits inefectiva para truncar. \newline
+        -Cómputo muy bajo.
+        &
+        -ISI destructiva. \newline
+        -SNR muy baja. \newline
+        -Cómputo minimizado.
+        \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+\newpage
+
+
+\section{Conclusiones}
+
+Finalizando con el informe, se concluye que, para cada caso de cuantización, es muy importante
+tener en cuenta los recursos de cómputo que se poseen para seleccionar la
+cuantización correcta.
+En este trabajo se vio como el efecto del error de cuantización nos obliga a jugar con el
+equilibrio entre procesamiento y fidelidad, como ocurre con otros aspectos del área del DSP,
+como ser el manejo del Timing o de la potencia.
+
+También fue clave entender el uso de los diagramas de ojo y
+las constelaciones para poder verificar el correcto funcionamiento de la transmisión de datos entre
+módulos.
 \end{document}
