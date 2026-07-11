@@ -53,9 +53,17 @@ def rcosine(beta, Tbaud, oversampling, Nbauds, Norm):
 
 
 ### Calculo de tres pusos con diferente roll-off
-(t,rc0) = rcosine(beta[0], T,os,Nbauds,Norm=False)
-(t,rc1) = rcosine(beta[1], T,os,Nbauds,Norm=False)
-(t,rc2) = rcosine(beta[2], T,os,Nbauds,Norm=False)
+(t,rc0_nq) = rcosine(beta[0], T,os,Nbauds,Norm=False)
+(t,rc1_nq) = rcosine(beta[1], T,os,Nbauds,Norm=False)
+(t,rc2_nq) = rcosine(beta[2], T,os,Nbauds,Norm=False)
+
+rc0_q = arrayFixedInt(3,2,rc0_nq,signedMode='S',roundMode='round',saturateMode='saturate')
+rc1_q = arrayFixedInt(3,2,rc1_nq,signedMode='S',roundMode='round',saturateMode='saturate')
+rc2_q = arrayFixedInt(3,2,rc2_nq,signedMode='S',roundMode='round',saturateMode='saturate')
+
+rc0 = np.array([c.fValue for c in rc0_q])
+rc1 = np.array([c.fValue for c in rc1_q])
+rc2 = np.array([c.fValue for c in rc2_q])
 
 print (np.sum(rc0**2),np.sum(rc1**2),np.sum(rc2**2))
 
@@ -317,8 +325,7 @@ plt.show()
 
 # In[16]:
 
-
-offset = 2
+offset = 6
 plt.figure(figsize=[6,6])
 plt.plot(symb_out0I[100+offset:len(symb_out0I)-(100-offset):int(os)],
          symb_out0Q[100+offset:len(symb_out0Q)-(100-offset):int(os)],
