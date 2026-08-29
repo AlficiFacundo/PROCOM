@@ -67,7 +67,9 @@ def rc_coefficients_float(rolloff, span, sps):
         h[np.isclose(np.abs(t), t_sing) | ~np.isfinite(h)] = (np.pi / 4) * np.sinc(t_sing)
     N = span * sps
     h = h[:N] if len(h) > N else np.pad(h, (0, N - len(h)))
-    return h / np.max(np.abs(h))
+    bank = h.reshape(span, sps).T
+    peak = max(np.sum(np.abs(bank[p])) for p in range(sps))
+    return h / peak
  
  
 def rc_coefficients_fixed(rolloff, span, sps):

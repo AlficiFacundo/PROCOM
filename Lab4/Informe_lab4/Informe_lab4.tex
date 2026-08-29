@@ -342,7 +342,128 @@ El diagrama en bloques que representa al sistema completo es el siguiente;
         \end{figure}
     \subsection{Implentación en Verilog del modelo en punto fijo.}
         En este inciso, se desarollará el modelo en punto fijo en Verilog, previamente propuesto en Python.
-        Siendo un lenguaje donde se pretende desarrollar el programa de la forma más prolija posible, se dividirá el código en bloques
+        Siendo un lenguaje donde se pretende desarrollar el programa de la forma más prolija posible, se dividió el código en bloques
         funcionales para cada etapa.
-        \subsubsection{}
+        \subsubsection{Verificación del modelo por Vector Matching}
+            Para verificar el modelo, se realizó un testbench que utiliza los estímulos realizados y las salidas obtenidas del modelo
+            realizado en punto fijo en Python, con el fin de comparar con los resultados obtenidos en este modelo en Verilog. Esto se logró
+            utilizando un archivo \textbf{.mem} generado dentro del modelo en Python, cargándolo luego en el testbench por medio de la función \textbf{\$readmemb} lo que
+            permitió utilizar los valores para compararlos uno por uno durante toda la simulación del top\_level.
+
+            Los waveforms obtenidos se pueden ver a continuación, considerando el análisis para cada una de las fases.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{imagenes/waveforms01_tb.png}
+                \caption{Waveforms para todas las fases}
+                \label{fig:waveforms01_tb}
+            \end{figure}
+            Estas formas de onda permiten ver todas las fases en su totalidad, realizando cambios de fase cada 2uS, de tal manera que
+            se puede observar la fase completa de esta forma.
+
+            Como se vió en la figura \ref{fig:BER_fp}, el BER para las fases 0, 1 y 3 son nulas, mientras que la fase 2 es la que 
+            contiene un error en los bits transmitidos.
+
+            Esto se puede ver en mejor medida realizando zooms en cada una de las fases, como se puede ver a continuación.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{imagenes/waveforms_phase0_tb.png}
+                \caption{Waveforms de la fase 0}
+                \label{fig:waveforms_phase0_tb}
+            \end{figure}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{imagenes/waveforms_phase1_tb.png}
+                \caption{Waveforms de la fase 1}
+                \label{fig:waveforms_phase1_tb}
+            \end{figure}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{imagenes/waveforms_phase2_tb.png}
+                \caption{Waveforms de la fase 2}
+                \label{fig:waveforms_phase2_tb}
+            \end{figure}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{imagenes/waveforms_phase3_tb.png}
+                \caption{Waveforms de la fase 3}
+                \label{fig:waveforms_phase3_tb}
+            \end{figure}
+
+            Para cada fase, el Bit Error Rate dividido en fase y cuadratura se puede ver en las variables \textbf{o\_err\_I y o\_err\_Q}.
+            
+            Finalmente, se muestra en la consola la comparación entre los valores obtenidos en la implementación y en el modelo de Python, siendo
+            los siguientes.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{imagenes/missmatches_tb.png}
+                \caption{Missmatches de la implementación, con BER por fase en relación a la cantidad de simbolos}
+                \label{fig:missmatches_tb}
+            \end{figure}
+            Los missmatches representan una diferencia entre el valor obtenido por símbolo y el valor del \textbf{.mem}, estos 2 errores
+            pueden ocurrirse debido a un desfasaje de alguna de las mediciones obtenidas.
+    \subsection{Implementación en FPGA}
+        Este apartado consistirá en mostrar los resultados obtenidos al momento de realizar la carga del programa dentro de una FPGA de la fundación.
+
+        En primera medida, es necesario recalcar que se utilizó los IP Cores VIO e ILA para manejar y visualizar algunos de los parámetros necesarios para 
+        el funcionamiento del sistema de comunicaciones.
+        Las variables a controlar serán:
+        \begin{itemize}
+            \item \textbf{i\_sw}: Manejando la habilitación de la transmisión, recepción y la selección de fases.
+            \item \textbf{i\_reset}: Manejando el reset de la placa para habilitar el funcionamiento.
+        \end{itemize}
+        Mientras que las variables importantes a visualizar serán:
+        \begin{itemize}
+            \item o\_sample\_I: Representa la salida del filtro en Fase.
+            \item o\_sample\_Q: Representa la salida del filtro en Cuadratura.
+            \item o\_led: Representa a los leds que muestran el estado actual de i\_sw.
+            \item o\_err\_I: Representa el BER para Fase.
+            \item o\_err\_Q: Representa el BER para Cuadratura.
+            \item o\_ber\_ok: Led que se enciende al tener BER igual a 0.
+        \end{itemize}
+        Finalmente, se obtuvieron las siguientes formas de onda para cada fase, utilizando un trigger configurado para que
+        se dispare cuando el led de BER igual a 0 se encienda.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{imagenes/waveforms_phase0_hw.png}
+            \caption{Waveforms de la fase 0 en Hardware}
+            \label{fig:waveforms_phase0_hw}
+        \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{imagenes/waveforms_phase1_hw.png}
+            \caption{Waveforms de la fase 1 en Hardware}
+            \label{fig:waveforms_phase1_hw}
+        \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{imagenes/waveforms_phase2_hw.png}
+            \caption{Waveforms de la fase 2 en Hardware}
+            \label{fig:waveforms_phase2_hw}
+        \end{figure}
+        Para esta fase se realizó un cambio en el trigger, dado que para la misma la BER era distinta de cero en todos los casos,
+        el trigger nunca se disparaba al esperar que el led se encienda, entoces se configuró de tal manera que se dispara
+        cuando el led estaba apagado.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{imagenes/waveforms_phase3_hw.png}
+            \caption{Waveforms de la fase 3 en Hardware}
+            \label{fig:waveforms_phase3_hw}
+        \end{figure}
+
+\newpage
+
+\section{Conclusión}
+    Se llegó a obtener el resultado esperado para la implementación en Hardware, por lo que se concluye un trabajo exitoso.
+    Es destacable la utilidad obtenida mediante la simulación, dado que la implementación mostró igualdad 1 a 1 con lo obtenido en Python.
+
+    La única diferencia obtenida fue que, el contador de BER de la fase 2 se saturaba luego de mostrar la fase pues, el reset
+    del contador del Bit Error Rate se activaba cuando se cambia de fase, y al no cambiar de fase se seguían acumulando las muestras, cosa que
+    no ocurría en la simulación pues ésta solamente llegaba al valor máximo de representación para 1 vuelta por cada fase.
+    Esto se puede solucionar mediante el cambio de la condición de reset del contador, pero para mantener la fidelidad con el simulador
+    se prefirió dejarlo en su estado actual.
 \end{document}

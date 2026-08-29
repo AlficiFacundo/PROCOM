@@ -6,4 +6,6 @@
 \contentsline {subsection}{\numberline {2.2}Simulador de Punto Fijo}{8}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Gráficos obtenidos}{9}{subsubsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.3}Implentación en Verilog del modelo en punto fijo.}{11}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}}{11}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1}Verificación del modelo por Vector Matching}{11}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}Implementación en FPGA}{14}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Conclusión}{17}{section.3}%

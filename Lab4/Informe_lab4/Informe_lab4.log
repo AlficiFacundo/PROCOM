@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.20)  23 AUG 2026 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.20)  29 AUG 2026 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -729,100 +729,155 @@ LaTeX Info: Redefining \% on input line 1.
 \openout5 = `Informe_lab4.toc'.
 
  [2]
-<imagenes/sist_comms.png, id=58, 524.71031pt x 282.30469pt>
+<imagenes/sist_comms.png, id=68, 524.71031pt x 282.30469pt>
 File: imagenes/sist_comms.png Graphic file (type png)
 <use imagenes/sist_comms.png>
 Package pdftex.def Info: imagenes/sist_comms.png  used on input line 133.
 (pdftex.def)             Requested size: 418.25368pt x 225.03421pt.
  [3 <./imagenes/sist_comms.png>]
-<imagenes/01_bits_transmitidos.png, id=70, 723.357pt x 359.379pt>
+<imagenes/01_bits_transmitidos.png, id=80, 723.357pt x 359.379pt>
 File: imagenes/01_bits_transmitidos.png Graphic file (type png)
 <use imagenes/01_bits_transmitidos.png>
 Package pdftex.def Info: imagenes/01_bits_transmitidos.png  used on input line 177.
 (pdftex.def)             Requested size: 418.25368pt x 207.79837pt.
  [4]
-<imagenes/02_respuesta_impulso.png, id=75, 835.047pt x 338.355pt>
+<imagenes/02_respuesta_impulso.png, id=85, 835.047pt x 338.355pt>
 File: imagenes/02_respuesta_impulso.png Graphic file (type png)
 <use imagenes/02_respuesta_impulso.png>
 Package pdftex.def Info: imagenes/02_respuesta_impulso.png  used on input line 186.
 (pdftex.def)             Requested size: 204.9466pt x 83.03967pt.
-<imagenes/03_respuesta_frecuencia.png, id=76, 846.216pt x 396.171pt>
+<imagenes/03_respuesta_frecuencia.png, id=86, 846.216pt x 396.171pt>
 File: imagenes/03_respuesta_frecuencia.png Graphic file (type png)
 <use imagenes/03_respuesta_frecuencia.png>
 Package pdftex.def Info: imagenes/03_respuesta_frecuencia.png  used on input line 191.
 (pdftex.def)             Requested size: 204.9466pt x 95.94742pt.
-<imagenes/04_salida_filtro_tx.png, id=78, 843.588pt x 422.451pt>
+<imagenes/04_salida_filtro_tx.png, id=88, 843.588pt x 422.451pt>
 File: imagenes/04_salida_filtro_tx.png Graphic file (type png)
 <use imagenes/04_salida_filtro_tx.png>
 Package pdftex.def Info: imagenes/04_salida_filtro_tx.png  used on input line 204.
 (pdftex.def)             Requested size: 418.25368pt x 209.4523pt.
  [5 <./imagenes/01_bits_transmitidos.png> <./imagenes/02_respuesta_impulso.png> <./imagenes/03_respuesta_frecuencia.png>]
-<imagenes/05_ojo_I.png, id=88, 417.852pt x 327.186pt>
+<imagenes/05_ojo_I.png, id=98, 417.852pt x 327.186pt>
 File: imagenes/05_ojo_I.png Graphic file (type png)
 <use imagenes/05_ojo_I.png>
 Package pdftex.def Info: imagenes/05_ojo_I.png  used on input line 216.
 (pdftex.def)             Requested size: 204.9466pt x 160.4773pt.
-<imagenes/06_ojo_Q.png, id=89, 417.852pt x 327.186pt>
+<imagenes/06_ojo_Q.png, id=99, 417.852pt x 327.186pt>
 File: imagenes/06_ojo_Q.png Graphic file (type png)
 <use imagenes/06_ojo_Q.png>
 Package pdftex.def Info: imagenes/06_ojo_Q.png  used on input line 221.
 (pdftex.def)             Requested size: 204.9466pt x 160.4773pt.
-<imagenes/07_constelacion_por_fase.png, id=90, 1148.436pt x 285.795pt>
+<imagenes/07_constelacion_por_fase.png, id=100, 1148.436pt x 285.795pt>
 File: imagenes/07_constelacion_por_fase.png Graphic file (type png)
 <use imagenes/07_constelacion_por_fase.png>
 Package pdftex.def Info: imagenes/07_constelacion_por_fase.png  used on input line 229.
 (pdftex.def)             Requested size: 418.25368pt x 104.08536pt.
  [6 <./imagenes/04_salida_filtro_tx.png> <./imagenes/05_ojo_I.png> <./imagenes/06_ojo_Q.png>]
-<imagenes/BER_float.png, id=100, 264.99pt x 107.65219pt>
+<imagenes/BER_float.png, id=110, 264.99pt x 107.65219pt>
 File: imagenes/BER_float.png Graphic file (type png)
 <use imagenes/BER_float.png>
 Package pdftex.def Info: imagenes/BER_float.png  used on input line 245.
 (pdftex.def)             Requested size: 418.25368pt x 169.9276pt.
  [7 <./imagenes/07_constelacion_por_fase.png> <./imagenes/BER_float.png>]
-<imagenes/01_bits_transmitidos_fp.png, id=110, 723.357pt x 359.379pt>
+<imagenes/01_bits_transmitidos_fp.png, id=120, 723.357pt x 359.379pt>
 File: imagenes/01_bits_transmitidos_fp.png Graphic file (type png)
 <use imagenes/01_bits_transmitidos_fp.png>
 Package pdftex.def Info: imagenes/01_bits_transmitidos_fp.png  used on input line 278.
 (pdftex.def)             Requested size: 418.25368pt x 207.79837pt.
  [8]
-<imagenes/02_respuesta_impulso_fp.png, id=115, 835.047pt x 338.355pt>
+<imagenes/02_respuesta_impulso_fp.png, id=125, 835.047pt x 338.355pt>
 File: imagenes/02_respuesta_impulso_fp.png Graphic file (type png)
 <use imagenes/02_respuesta_impulso_fp.png>
 Package pdftex.def Info: imagenes/02_respuesta_impulso_fp.png  used on input line 287.
 (pdftex.def)             Requested size: 204.9466pt x 83.03967pt.
-<imagenes/03_respuesta_frecuencia_fp.png, id=116, 840.303pt x 396.171pt>
+<imagenes/03_respuesta_frecuencia_fp.png, id=126, 840.303pt x 396.171pt>
 File: imagenes/03_respuesta_frecuencia_fp.png Graphic file (type png)
 <use imagenes/03_respuesta_frecuencia_fp.png>
 Package pdftex.def Info: imagenes/03_respuesta_frecuencia_fp.png  used on input line 292.
 (pdftex.def)             Requested size: 204.9466pt x 96.62447pt.
-<imagenes/04_salida_filtro_tx_fp.png, id=118, 843.588pt x 422.451pt>
+<imagenes/04_salida_filtro_tx_fp.png, id=128, 843.588pt x 422.451pt>
 File: imagenes/04_salida_filtro_tx_fp.png Graphic file (type png)
 <use imagenes/04_salida_filtro_tx_fp.png>
 Package pdftex.def Info: imagenes/04_salida_filtro_tx_fp.png  used on input line 306.
 (pdftex.def)             Requested size: 418.25368pt x 209.4523pt.
  [9 <./imagenes/01_bits_transmitidos_fp.png> <./imagenes/02_respuesta_impulso_fp.png> <./imagenes/03_respuesta_frecuencia_fp.png>]
-<imagenes/05_ojo_I_fp.png, id=129, 417.852pt x 327.186pt>
+<imagenes/05_ojo_I_fp.png, id=139, 417.852pt x 327.186pt>
 File: imagenes/05_ojo_I_fp.png Graphic file (type png)
 <use imagenes/05_ojo_I_fp.png>
 Package pdftex.def Info: imagenes/05_ojo_I_fp.png  used on input line 318.
 (pdftex.def)             Requested size: 204.9466pt x 160.4773pt.
-<imagenes/06_ojo_Q_fp.png, id=130, 417.852pt x 327.186pt>
+<imagenes/06_ojo_Q_fp.png, id=140, 417.852pt x 327.186pt>
 File: imagenes/06_ojo_Q_fp.png Graphic file (type png)
 <use imagenes/06_ojo_Q_fp.png>
 Package pdftex.def Info: imagenes/06_ojo_Q_fp.png  used on input line 323.
 (pdftex.def)             Requested size: 204.9466pt x 160.4773pt.
-<imagenes/07_constelacion_por_fase_fp.png, id=131, 1148.436pt x 285.795pt>
+<imagenes/07_constelacion_por_fase_fp.png, id=141, 1148.436pt x 285.795pt>
 File: imagenes/07_constelacion_por_fase_fp.png Graphic file (type png)
 <use imagenes/07_constelacion_por_fase_fp.png>
 Package pdftex.def Info: imagenes/07_constelacion_por_fase_fp.png  used on input line 331.
 (pdftex.def)             Requested size: 418.25368pt x 104.08536pt.
  [10 <./imagenes/04_salida_filtro_tx_fp.png> <./imagenes/05_ojo_I_fp.png> <./imagenes/06_ojo_Q_fp.png>]
-<imagenes/BER_fp.png, id=142, 261.22594pt x 109.1578pt>
+<imagenes/BER_fp.png, id=152, 261.22594pt x 109.1578pt>
 File: imagenes/BER_fp.png Graphic file (type png)
 <use imagenes/BER_fp.png>
 Package pdftex.def Info: imagenes/BER_fp.png  used on input line 339.
 (pdftex.def)             Requested size: 418.25368pt x 174.77763pt.
- [11 <./imagenes/07_constelacion_por_fase_fp.png> <./imagenes/BER_fp.png>] (Informe_lab4.aux
+ [11 <./imagenes/07_constelacion_por_fase_fp.png> <./imagenes/BER_fp.png>]
+<imagenes/waveforms01_tb.png, id=161, 1216.545pt x 457.71pt>
+File: imagenes/waveforms01_tb.png Graphic file (type png)
+<use imagenes/waveforms01_tb.png>
+Package pdftex.def Info: imagenes/waveforms01_tb.png  used on input line 356.
+(pdftex.def)             Requested size: 418.25368pt x 157.35838pt.
+<imagenes/waveforms_phase0_tb.png, id=163, 1216.545pt x 459.96844pt>
+File: imagenes/waveforms_phase0_tb.png Graphic file (type png)
+<use imagenes/waveforms_phase0_tb.png>
+Package pdftex.def Info: imagenes/waveforms_phase0_tb.png  used on input line 369.
+(pdftex.def)             Requested size: 418.25368pt x 158.13481pt.
+<imagenes/waveforms_phase1_tb.png, id=164, 1214.28656pt x 456.20438pt>
+File: imagenes/waveforms_phase1_tb.png Graphic file (type png)
+<use imagenes/waveforms_phase1_tb.png>
+Package pdftex.def Info: imagenes/waveforms_phase1_tb.png  used on input line 376.
+(pdftex.def)             Requested size: 418.25368pt x 157.1331pt.
+ [12 <./imagenes/waveforms01_tb.png> <./imagenes/waveforms_phase0_tb.png>]
+<imagenes/waveforms_phase2_tb.png, id=174, 1213.53375pt x 456.20438pt>
+File: imagenes/waveforms_phase2_tb.png Graphic file (type png)
+<use imagenes/waveforms_phase2_tb.png>
+Package pdftex.def Info: imagenes/waveforms_phase2_tb.png  used on input line 383.
+(pdftex.def)             Requested size: 418.25368pt x 157.23752pt.
+<imagenes/waveforms_phase3_tb.png, id=175, 1213.53375pt x 457.71pt>
+File: imagenes/waveforms_phase3_tb.png Graphic file (type png)
+<use imagenes/waveforms_phase3_tb.png>
+Package pdftex.def Info: imagenes/waveforms_phase3_tb.png  used on input line 390.
+(pdftex.def)             Requested size: 418.25368pt x 157.75647pt.
+ [13 <./imagenes/waveforms_phase1_tb.png> <./imagenes/waveforms_phase2_tb.png> <./imagenes/waveforms_phase3_tb.png>]
+<imagenes/missmatches_tb.png, id=187, 568.37344pt x 76.78688pt>
+File: imagenes/missmatches_tb.png Graphic file (type png)
+<use imagenes/missmatches_tb.png>
+Package pdftex.def Info: imagenes/missmatches_tb.png  used on input line 401.
+(pdftex.def)             Requested size: 418.25368pt x 56.50854pt.
+<imagenes/waveforms_phase0_hw.png, id=188, 1175.89313pt x 377.91188pt>
+File: imagenes/waveforms_phase0_hw.png Graphic file (type png)
+<use imagenes/waveforms_phase0_hw.png>
+Package pdftex.def Info: imagenes/waveforms_phase0_hw.png  used on input line 430.
+(pdftex.def)             Requested size: 418.25368pt x 134.41626pt.
+ [14 <./imagenes/missmatches_tb.png>]
+<imagenes/waveforms_phase1_hw.png, id=195, 908.64468pt x 376.40625pt>
+File: imagenes/waveforms_phase1_hw.png Graphic file (type png)
+<use imagenes/waveforms_phase1_hw.png>
+Package pdftex.def Info: imagenes/waveforms_phase1_hw.png  used on input line 437.
+(pdftex.def)             Requested size: 418.25368pt x 173.26384pt.
+<imagenes/waveforms_phase2_hw.png, id=196, 908.64468pt x 378.66469pt>
+File: imagenes/waveforms_phase2_hw.png Graphic file (type png)
+<use imagenes/waveforms_phase2_hw.png>
+Package pdftex.def Info: imagenes/waveforms_phase2_hw.png  used on input line 444.
+(pdftex.def)             Requested size: 418.25368pt x 174.30342pt.
+ [15 <./imagenes/waveforms_phase0_hw.png> <./imagenes/waveforms_phase1_hw.png>]
+<imagenes/waveforms_phase3_hw.png, id=205, 907.89188pt x 377.91188pt>
+File: imagenes/waveforms_phase3_hw.png Graphic file (type png)
+<use imagenes/waveforms_phase3_hw.png>
+Package pdftex.def Info: imagenes/waveforms_phase3_hw.png  used on input line 453.
+(pdftex.def)             Requested size: 418.25368pt x 174.10106pt.
+ [16 <./imagenes/waveforms_phase2_hw.png> <./imagenes/waveforms_phase3_hw.png>] [17] (Informe_lab4.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -831,20 +886,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `Informe_lab4.out' has not changed.
-(rerunfilecheck)             Checksum: 7A149BC9C52AE98647FD969D5F7144C7;1292.
+(rerunfilecheck)             Checksum: 5020807A2E617F281692AD3744ABF074;1806.
  ) 
 Here is how much of TeX's memory you used:
- 28369 strings out of 467691
- 562086 string characters out of 5414987
- 991432 words of memory out of 5000000
- 56981 multiletter control sequences out of 15000+600000
- 633255 words of font info for 59 fonts, out of 8000000 for 9000
+ 28472 strings out of 467691
+ 565269 string characters out of 5414987
+ 993126 words of memory out of 5000000
+ 57065 multiletter control sequences out of 15000+600000
+ 633596 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,9n,108p,502b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Informe_lab4.pdf (11 pages, 900118 bytes).
+ <C:\Users\facun\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Informe_lab4.pdf (17 pages, 1196445 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
