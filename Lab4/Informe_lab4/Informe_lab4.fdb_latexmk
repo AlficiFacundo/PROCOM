@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1788036229.39583 "c:/Users/facun/VSCodeProjects/PROCOM/Lab4/Informe_lab4/Informe_lab4.tex" "Informe_lab4.pdf" "Informe_lab4" 1788036237.20376 0
+["pdflatex"] 1788036434.33653 "c:/Users/facun/VSCodeProjects/PROCOM/Lab4/Informe_lab4/Informe_lab4.tex" "Informe_lab4.pdf" "Informe_lab4" 1788036442.18884 0
   "C:/Users/facun/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1783742439 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/facun/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1200.pk" 1788034017 15080 5918faa364cdb26470f37e0aa1209265 ""
   "C:/Users/facun/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779279348 13350272 2e586ffb1a323122c445d3f8c3632b4b ""
@@ -161,11 +161,11 @@
   "C:/Users/facun/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/facun/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/facun/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Informe_lab4.aux" 1788036236 8274 1400e883455d21e9a7f6c5cc0f0c06fd "pdflatex"
-  "Informe_lab4.out" 1788036236 1806 5020807a2e617f281692ad3744abf074 "pdflatex"
-  "Informe_lab4.tex" 1788036228 24371 07379b3957ab239ce4c35868e1dffe40 ""
-  "Informe_lab4.toc" 1788036236 933 6f5e8147a903619ef4bd814f12ea68a7 "pdflatex"
-  "c:/Users/facun/VSCodeProjects/PROCOM/Lab4/Informe_lab4/Informe_lab4.tex" 1788036228 24371 07379b3957ab239ce4c35868e1dffe40 ""
+  "Informe_lab4.aux" 1788036441 8274 1400e883455d21e9a7f6c5cc0f0c06fd "pdflatex"
+  "Informe_lab4.out" 1788036441 1806 5020807a2e617f281692ad3744abf074 "pdflatex"
+  "Informe_lab4.tex" 1788036433 24437 c2a01f20e070bc988e58c0c922808f90 ""
+  "Informe_lab4.toc" 1788036441 933 6f5e8147a903619ef4bd814f12ea68a7 "pdflatex"
+  "c:/Users/facun/VSCodeProjects/PROCOM/Lab4/Informe_lab4/Informe_lab4.tex" 1788036433 24437 c2a01f20e070bc988e58c0c922808f90 ""
   "imagenes/01_bits_transmitidos.png" 1787422692 28141 d5a35de19772603e9e2c48c25d10e877 ""
   "imagenes/01_bits_transmitidos_fp.png" 1787883889 28141 d5a35de19772603e9e2c48c25d10e877 ""
   "imagenes/02_respuesta_impulso.png" 1787422692 43912 e2e5119b3bfd252ef1d5887fbe5c3c50 ""

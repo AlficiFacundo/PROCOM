@@ -416,12 +416,12 @@ El diagrama en bloques que representa al sistema completo es el siguiente;
         \end{itemize}
         Mientras que las variables importantes a visualizar serán:
         \begin{itemize}
-            \item o\_sample\_I: Representa la salida del filtro en Fase.
-            \item o\_sample\_Q: Representa la salida del filtro en Cuadratura.
-            \item o\_led: Representa a los leds que muestran el estado actual de i\_sw.
-            \item o\_err\_I: Representa el BER para Fase.
-            \item o\_err\_Q: Representa el BER para Cuadratura.
-            \item o\_ber\_ok: Led que se enciende al tener BER igual a 0.
+            \item o\_sample\_I(probe0\_0): Representa la salida del filtro en Fase.
+            \item o\_sample\_Q(probe1\_0): Representa la salida del filtro en Cuadratura.
+            \item o\_led(probe2\_0): Representa a los leds que muestran el estado actual de i\_sw.
+            \item o\_err\_I(probe3\_0): Representa el BER para Fase.
+            \item o\_err\_Q(probe5\_0): Representa el BER para Cuadratura.
+            \item o\_ber\_ok(probe7\_0): Led que se enciende al tener BER igual a 0.
         \end{itemize}
         Finalmente, se obtuvieron las siguientes formas de onda para cada fase, utilizando un trigger configurado para que
         se dispare cuando el led de BER igual a 0 se encienda.
