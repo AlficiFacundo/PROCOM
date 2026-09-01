@@ -167,9 +167,9 @@ Los desafíos principales se muestran a continuación.
     las cuales se encargan de construir la trama según lo definido en el firmware del microblaze.
     Estos comandos se detallan a continuación:
     \begin{itemize}
-        \item Comando de encendido de led \texttt{"led <0-3> <R 0/1> <G 0/1> <B 0/1>"}: Permite encender los 3 colores posibles de cada led.
-        \item Comando de lectura de switches \texttt{"sw"}: Permite leer el estado de los switches de la placa.
-        \item Comando de salida \texttt{"exit"}: Permite salir del programa.
+        \item Comando de encendido de led \texttt{'led <0-3> <R 0/1> <G 0/1> <B 0/1>'}: Permite encender los 3 colores posibles de cada led.
+        \item Comando de lectura de switches \texttt{'sw'}: Permite leer el estado de los switches de la placa.
+        \item Comando de salida \texttt{'exit'}: Permite salir del programa.
     \end{itemize}
     Dado que el intercambio de tramas entre el microblaze y el programa en python es bidireccional, se definieron funciones similares en ambos extremos
     para poder parsear la trama recibida y verificar que sea correcta, de lo contrario se descarta.

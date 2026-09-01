@@ -317,7 +317,6 @@ INPUT .\imagenes\trama_type.png
 INPUT .\imagenes\trama_type.png
 INPUT .\imagenes\trama_type.png
 INPUT .\imagenes\trama_type.png
-INPUT C:\Users\facun\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT .\imagenes\commands01.png
 INPUT .\imagenes\commands01.png
 INPUT .\imagenes\commands01.png
@@ -372,5 +371,3 @@ INPUT C:\Users\facun\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\facun\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\facun\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\facun\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Users\facun\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb
-INPUT C:\Users\facun\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb

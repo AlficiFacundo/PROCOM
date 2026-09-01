@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.20)  31 AUG 2026 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.20)  31 AUG 2026 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -752,23 +752,23 @@ File: imagenes/vio01.png Graphic file (type png)
 Package pdftex.def Info: imagenes/vio01.png  used on input line 194.
 (pdftex.def)             Requested size: 167.2989pt x 152.12178pt.
  [5 <./imagenes/commands01.png>]
-<imagenes/commands02.png, id=74, 231.11343pt x 109.91063pt>
+<imagenes/commands02.png, id=73, 231.11343pt x 109.91063pt>
 File: imagenes/commands02.png Graphic file (type png)
 <use imagenes/commands02.png>
 Package pdftex.def Info: imagenes/commands02.png  used on input line 201.
 (pdftex.def)             Requested size: 167.2989pt x 79.56323pt.
-<imagenes/vio02.png, id=75, 347.79938pt x 331.2375pt>
+<imagenes/vio02.png, id=74, 347.79938pt x 331.2375pt>
 File: imagenes/vio02.png Graphic file (type png)
 <use imagenes/vio02.png>
 Package pdftex.def Info: imagenes/vio02.png  used on input line 209.
 (pdftex.def)             Requested size: 167.2989pt x 159.33083pt.
  [6 <./imagenes/vio01.png> <./imagenes/commands02.png>]
-<imagenes/commands03.png, id=84, 228.10219pt x 94.85437pt>
+<imagenes/commands03.png, id=83, 228.10219pt x 94.85437pt>
 File: imagenes/commands03.png Graphic file (type png)
 <use imagenes/commands03.png>
 Package pdftex.def Info: imagenes/commands03.png  used on input line 216.
 (pdftex.def)             Requested size: 167.2989pt x 69.57166pt.
-<imagenes/vio03.png, id=85, 350.81062pt x 323.70938pt>
+<imagenes/vio03.png, id=84, 350.81062pt x 323.70938pt>
 File: imagenes/vio03.png Graphic file (type png)
 <use imagenes/vio03.png>
 Package pdftex.def Info: imagenes/vio03.png  used on input line 223.
@@ -785,17 +785,17 @@ Package rerunfilecheck Info: File `Informe_lab5.out' has not changed.
 (rerunfilecheck)             Checksum: 8AA4696AF8C0DE7B6C98D60F01969215;764.
  ) 
 Here is how much of TeX's memory you used:
- 28303 strings out of 467691
- 558971 string characters out of 5414987
+ 28293 strings out of 467691
+ 558835 string characters out of 5414987
  989820 words of memory out of 5000000
- 56926 multiletter control sequences out of 15000+600000
- 633929 words of font info for 62 fonts, out of 8000000 for 9000
+ 56917 multiletter control sequences out of 15000+600000
+ 633761 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,7n,108p,502b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\facun\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Informe_lab5.pdf (8 pages, 141705 bytes).
+ <C:\Users\facun\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/facun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Informe_lab5.pdf (8 pages, 137896 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
